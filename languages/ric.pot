@@ -1,0 +1,1041 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Ricerca Advanced Search\n"
+"POT-Creation-Date: 2024-05-30 15:55+0300\n"
+"PO-Revision-Date: 2021-08-15 11:48+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: Poedit 3.4.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: ricerca-smart-search.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;"
+"_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: inc/admin_ajax.php:92
+msgid "No Items found in index"
+msgstr ""
+
+#: inc/admin_ajax.php:97
+msgid "ID"
+msgstr ""
+
+#: inc/admin_ajax.php:98
+msgid "Title"
+msgstr ""
+
+#: inc/admin_ajax.php:99
+msgid "Post type"
+msgstr ""
+
+#: inc/admin_ajax.php:100
+msgid "Thumbnail"
+msgstr ""
+
+#: inc/admin_ajax.php:121
+msgid "Sync"
+msgstr ""
+
+#: inc/admin_ajax.php:122 inc/modules/popularterms.php:92
+#: inc/modules/popularterms.php:105 inc/modules/termcorrector.php:96
+#: inc/modules/termcorrector.php:111
+msgid "Delete"
+msgstr ""
+
+#: inc/admin_ajax.php:332 inc/admin_ajax.php:360
+msgid "No posts types to sync, plese modify the plugin's settings"
+msgstr ""
+
+#: inc/admin_ajax.php:408 inc/status.php:53
+msgid "Invailed request"
+msgstr ""
+
+#: inc/admin_ajax.php:597
+msgid "Settings saved, Some of the changes will take a while."
+msgstr ""
+
+#: inc/admin_fields.php:26 inc/modules/customize.php:55
+#: inc/modules/termcorrector.php:54
+msgid "Active"
+msgstr ""
+
+#: inc/admin_fields.php:27
+msgid "Preview mode"
+msgstr ""
+
+#: inc/admin_fields.php:29 inc/status.php:30 inc/status.php:31
+msgid "Status"
+msgstr ""
+
+#: inc/admin_fields.php:31
+msgid ""
+"When preview mode is activated you can view Ricerca search by including "
+"this query in your url"
+msgstr ""
+
+#: inc/admin_fields.php:39
+msgid "Open items in a new tab"
+msgstr ""
+
+#: inc/admin_fields.php:49
+msgid ""
+"Show link to a search results page at the bottom of the search drop down"
+msgstr ""
+
+#: inc/admin_fields.php:63
+msgid "Maximum results limit"
+msgstr ""
+
+#: inc/admin_fields.php:65
+#, php-format
+msgid "No enough search reults?  %s and get up to 150 results."
+msgstr ""
+
+#: inc/admin_fields.php:65 inc/admin_fields.php:113 inc/admin_fields.php:190
+#: inc/admin_fields.php:236 inc/admin_fields.php:443 inc/admin_fields.php:458
+#: inc/admin_fields.php:511 inc/admin_fields.php:558 inc/admin_fields.php:575
+#: inc/admin_fields.php:588 inc/modules/api.php:98
+#: inc/modules/customize.php:86 inc/modules/customize.php:107
+#: inc/modules/customize.php:123 inc/modules/customize.php:133
+#: inc/modules/customize.php:143 inc/modules/customize.php:153
+#: inc/modules/customize.php:166 inc/modules/customize.php:178
+#: inc/modules/customize.php:190 inc/modules/customize.php:202
+#: inc/modules/customize.php:215 inc/modules/customize.php:230
+#: inc/modules/customize.php:243 inc/modules/customize.php:257
+#: inc/modules/datalayer.php:35 inc/modules/popularterms.php:47
+#: inc/modules/promotions.php:47 inc/modules/shortcodes.php:86
+#: inc/modules/termcorrector.php:57
+msgid "Upgrade to Premium"
+msgstr ""
+
+#: inc/admin_fields.php:75
+msgid "Show categories list on search results layout"
+msgstr ""
+
+#: inc/admin_fields.php:84
+msgid "Show user searches history"
+msgstr ""
+
+#: inc/admin_fields.php:85
+msgid "Last five search terms"
+msgstr ""
+
+#: inc/admin_fields.php:99
+msgid "CSS selector to run the search modal."
+msgstr ""
+
+#: inc/admin_fields.php:111
+msgid "Maximum categories results limit"
+msgstr ""
+
+#: inc/admin_fields.php:113
+#, php-format
+msgid "No enough search reults?  %s and get up to 30 results."
+msgstr ""
+
+#: inc/admin_fields.php:125
+msgid "Show thumbnails in search results"
+msgstr ""
+
+#: inc/admin_fields.php:137
+msgid "Displying full image - maintaining its aspect ratio"
+msgstr ""
+
+#: inc/admin_fields.php:138
+msgid "Cover - Displying part of the image"
+msgstr ""
+
+#: inc/admin_fields.php:140
+msgid "How image should be resized to fit its container?"
+msgstr ""
+
+#: inc/admin_fields.php:156
+msgid "Woocommerce support active"
+msgstr ""
+
+#: inc/admin_fields.php:167
+msgid "Link to a search results should show only products"
+msgstr ""
+
+#: inc/admin_fields.php:186
+msgid "Hide out of stock items from the search results"
+msgstr ""
+
+#: inc/admin_fields.php:190
+#, php-format
+msgid ""
+"%s and start excluding Not In Stock items from being shown in search "
+"results."
+msgstr ""
+
+#: inc/admin_fields.php:204
+msgid "Show add to cart url"
+msgstr ""
+
+#: inc/admin_fields.php:213
+msgid "Show prices"
+msgstr ""
+
+#: inc/admin_fields.php:224
+msgid "Index product SKU"
+msgstr ""
+
+#: inc/admin_fields.php:234
+msgid "Pin purchasable products at the top of the search results."
+msgstr ""
+
+#: inc/admin_fields.php:236
+#, php-format
+msgid "%s and show purchasable products first."
+msgstr ""
+
+#: inc/admin_fields.php:255
+msgid "Post's name sync"
+msgstr ""
+
+#: inc/admin_fields.php:256
+msgid ""
+"Will show search results based on the post's name: for example: product "
+"name"
+msgstr ""
+
+#: inc/admin_fields.php:267
+msgid "Main content in posts"
+msgstr ""
+
+#: inc/admin_fields.php:268
+msgid ""
+"Will show search results based on content appearing in the visual editor"
+msgstr ""
+
+#: inc/admin_fields.php:280
+msgid "Excerpt sync"
+msgstr ""
+
+#: inc/admin_fields.php:281
+msgid ""
+"Will show search results based on the post's excerpt: for example: product "
+"excerpt"
+msgstr ""
+
+#: inc/admin_fields.php:292
+msgid "Categories name sync"
+msgstr ""
+
+#: inc/admin_fields.php:293
+msgid ""
+"will show results on the categories list based on the category name. For "
+"example: Searching the term Chairs will show categories on the categories "
+"list that it's name contains the term Chairs."
+msgstr ""
+
+#: inc/admin_fields.php:301
+msgid "Categories description sync"
+msgstr ""
+
+#: inc/admin_fields.php:302
+msgid ""
+"will show results on the categories list based on the category "
+"description. For example: Searching the term Chairs will show categories "
+"on the categories list that their description contains the term Chairs."
+msgstr ""
+
+#: inc/admin_fields.php:358
+msgid "Simple layout"
+msgstr ""
+
+#: inc/admin_fields.php:359
+msgid "Wide layout"
+msgstr ""
+
+#: inc/admin_fields.php:360
+msgid "Modal layout"
+msgstr ""
+
+#: inc/admin_fields.php:362
+msgid "Search drop layout"
+msgstr ""
+
+#: inc/admin_fields.php:370
+msgid "Default width for wide screens"
+msgstr ""
+
+#: inc/admin_fields.php:378 inc/admin_fields.php:386 inc/admin_fields.php:394
+#: inc/admin_fields.php:402 inc/admin_fields.php:410
+#, php-format
+msgid "Default width for screens under %d px"
+msgstr ""
+
+#: inc/admin_fields.php:423
+msgid "Search field label"
+msgstr ""
+
+#: inc/admin_fields.php:439
+msgid ""
+"Name crossing - Crossing a search query with category name in order to "
+"display it's items"
+msgstr ""
+
+#: inc/admin_fields.php:440
+msgid ""
+"In addition to the existing search results, this feature shows product "
+"search results from the category whose it's named meets the requested "
+"term. For example, when searching Beds the system shows products that do "
+"not contain the word Beds but their category is Beds"
+msgstr ""
+
+#: inc/admin_fields.php:443
+#, php-format
+msgid "%s and improve the way you customize your search results."
+msgstr ""
+
+#: inc/admin_fields.php:455
+msgid "Index custom taxonomies names (comma seprated)"
+msgstr ""
+
+#: inc/admin_fields.php:456
+msgid ""
+"Fill the taxonomy slug key  (Comma separated, recommended to consult an "
+"expert)"
+msgstr ""
+
+#: inc/admin_fields.php:458
+#, php-format
+msgid ""
+"%s, start syncing your custome taxonomies fields and get better control on "
+"your search results."
+msgstr ""
+
+#: inc/admin_fields.php:469
+msgid "Custom image field meta key"
+msgstr ""
+
+#: inc/admin_fields.php:496
+msgid "Image size slug"
+msgstr ""
+
+#: inc/admin_fields.php:497
+msgid "For best performance, please keep it as lower size you can."
+msgstr ""
+
+#: inc/admin_fields.php:508
+msgid ""
+"Index additional meta fields Fill meta field's key names (comma seprated)"
+msgstr ""
+
+#: inc/admin_fields.php:509
+msgid ""
+"Fill meta field's key  (Comma separated, recommended to consult an expert)"
+msgstr ""
+
+#: inc/admin_fields.php:511
+#, php-format
+msgid ""
+"%s, start syncing your custome meta fields and get better control on your "
+"search results."
+msgstr ""
+
+#: inc/admin_fields.php:550
+msgid "Automatic"
+msgstr ""
+
+#: inc/admin_fields.php:551
+msgid "Most cliked items"
+msgstr ""
+
+#: inc/admin_fields.php:552
+msgid "Best sellers from search results"
+msgstr ""
+
+#: inc/admin_fields.php:553
+msgid "Most added to cart from search results"
+msgstr ""
+
+#: inc/admin_fields.php:555
+msgid ""
+"Order items by - Choose the order of the items on the search results layout"
+msgstr ""
+
+#: inc/admin_fields.php:558
+#, php-format
+msgid "%s and change items ordering."
+msgstr ""
+
+#: inc/admin_fields.php:569 inc/admin_fields.php:582
+msgid "Type at least two letters"
+msgstr ""
+
+#: inc/admin_fields.php:573
+msgid "Exclude posts"
+msgstr ""
+
+#: inc/admin_fields.php:574
+msgid "Exclude posts from shown in search results"
+msgstr ""
+
+#: inc/admin_fields.php:575
+#, php-format
+msgid "Not enough posts to exclude?  %s and get up unlimited posts."
+msgstr ""
+
+#: inc/admin_fields.php:585
+msgid "Exclude categories"
+msgstr ""
+
+#: inc/admin_fields.php:586
+msgid "Exclude posts of categories from shown in search results"
+msgstr ""
+
+#: inc/admin_fields.php:588
+#, php-format
+msgid "%s and start hide unwanted categories."
+msgstr ""
+
+#: inc/admin_fields.php:602
+msgid "On page load"
+msgstr ""
+
+#: inc/admin_fields.php:603
+msgid "Directly after load, using AJAX"
+msgstr ""
+
+#: inc/admin_fields.php:604
+msgid ""
+"After first engagement (Scroll, Touch Click.., this is best for page speed "
+"load), using AJAX"
+msgstr ""
+
+#: inc/admin_fields.php:606
+msgid "When Index items should loaded in the front?"
+msgstr ""
+
+#: inc/admin_fields.php:607
+msgid ""
+"We prefer On page load. but in large amount of posts this can make "
+"conflict with some page cache plugins"
+msgstr ""
+
+#: inc/admin_fields.php:617
+msgid "Load CSS as inline instead of files"
+msgstr ""
+
+#: inc/admin_fields.php:628
+msgid "None"
+msgstr ""
+
+#: inc/admin_fields.php:629
+msgid "1 Minute"
+msgstr ""
+
+#: inc/admin_fields.php:630 inc/admin_fields.php:631 inc/admin_fields.php:632
+#: inc/admin_fields.php:633
+#, php-format
+msgid "%d Minutes"
+msgstr ""
+
+#: inc/admin_fields.php:635
+msgid "Cache expire time for get items query on the frontend?"
+msgstr ""
+
+#: inc/admin_fields.php:636
+msgid "In case of busy site, keep it as higher you can"
+msgstr ""
+
+#: inc/admin_fields.php:646
+msgid ""
+"Amount of items to be synced in each automatic or manual request (every 5 "
+"min)"
+msgstr ""
+
+#: inc/admin_fields.php:647
+msgid "In case of busy site, keep it as lower you can"
+msgstr ""
+
+#: inc/admin_menu.php:15 inc/admin_menu.php:16 inc/admin_menu.php:164
+msgid "Ricerca Search"
+msgstr ""
+
+#: inc/admin_menu.php:24 inc/admin_menu.php:25
+msgid "Index"
+msgstr ""
+
+#: inc/admin_menu.php:38 inc/admin_menu.php:39 inc/admin_menu.php:61
+msgid "Collections Creator"
+msgstr ""
+
+#: inc/admin_menu.php:63
+msgid ""
+"Upgrade to premium and create items collections and expose your visitore "
+"for more items on search results"
+msgstr ""
+
+#: inc/admin_menu.php:67
+msgid "Add new collection"
+msgstr ""
+
+#: inc/admin_menu.php:115
+msgid "General"
+msgstr ""
+
+#: inc/admin_menu.php:119
+msgid "Posts indexing options"
+msgstr ""
+
+#: inc/admin_menu.php:123
+msgid "Categories results - terms indexing options"
+msgstr ""
+
+#: inc/admin_menu.php:127
+msgid "Post types to sync"
+msgstr ""
+
+#: inc/admin_menu.php:131
+msgid "Taxonomies to sync"
+msgstr ""
+
+#: inc/admin_menu.php:132
+msgid ""
+"Example: In case your site has Brands as taxonomy and you would like to "
+"show search results of items of a certain brand."
+msgstr ""
+
+#: inc/admin_menu.php:136
+msgid "Thumbnails"
+msgstr ""
+
+#: inc/admin_menu.php:141
+msgid "Woocommerce compatibility"
+msgstr ""
+
+#: inc/admin_menu.php:146
+msgid "Advanced rules"
+msgstr ""
+
+#: inc/admin_menu.php:150
+msgid "Miscellaneous"
+msgstr ""
+
+#: inc/admin_menu.php:154
+msgid "Performance"
+msgstr ""
+
+#: inc/admin_menu.php:229
+msgid "Save settings"
+msgstr ""
+
+#: inc/admin_menu.php:230
+msgid "Save settings and sync"
+msgstr ""
+
+#: inc/admin_menu.php:280
+msgid "Have A Question?"
+msgstr ""
+
+#: inc/admin_menu.php:281
+msgid "Drop us a line and we will get back at you as soon as possible"
+msgstr ""
+
+#: inc/admin_menu.php:284
+msgid "Contact Us"
+msgstr ""
+
+#: inc/admin_menu.php:407
+msgid "Running first Sync, please wait..."
+msgstr ""
+
+#: inc/functions.php:16
+msgid "Sync in process, please wait!"
+msgstr ""
+
+#: inc/functions.php:17
+msgid "Please keep this tab open."
+msgstr ""
+
+#: inc/functions.php:31
+msgid "Upgrade to premium!"
+msgstr ""
+
+#: inc/functions.php:220
+msgid "Additional results for"
+msgstr ""
+
+#: inc/functions.php:221 inc/functions.php:363
+msgid "Add to cart"
+msgstr ""
+
+#: inc/functions.php:222
+msgid "Additional info"
+msgstr ""
+
+#: inc/functions.php:223 inc/modules/popularterms.php:29
+msgid "Popular terms"
+msgstr ""
+
+#: inc/functions.php:224
+msgid "Results:"
+msgstr ""
+
+#: inc/functions.php:225 inc/functions.php:361
+msgid "More info"
+msgstr ""
+
+#: inc/functions.php:226
+msgid "Added to cart"
+msgstr ""
+
+#: inc/functions.php:227
+msgid "Categories Results"
+msgstr ""
+
+#: inc/functions.php:228
+msgid "No results found"
+msgstr ""
+
+#: inc/functions.php:229
+msgid "Loading data, please wait..."
+msgstr ""
+
+#: inc/functions.php:242 inc/functions.php:268
+msgid "Close"
+msgstr ""
+
+#: inc/functions.php:247
+msgid "What you are looking for today?"
+msgstr ""
+
+#: inc/functions.php:485
+msgid "Sync data"
+msgstr ""
+
+#: inc/functions.php:488
+msgid "Start a manual sync"
+msgstr ""
+
+#: inc/modules/api.php:30 inc/modules/api.php:41
+msgid "Api"
+msgstr ""
+
+#: inc/modules/api.php:46
+msgid ""
+"IMPORTANT: when using one or more of these functions, you must check for "
+"its existence before using it, otherwise your site will badly break with a "
+"fatal error at the next Plugin update (as WordPress deletes the plugin "
+"when updating it)."
+msgstr ""
+
+#: inc/modules/api.php:48
+msgid "Using API can give you the ability to enhancing our features."
+msgstr ""
+
+#: inc/modules/api.php:54
+msgid "Get top clicked items"
+msgstr ""
+
+#: inc/modules/api.php:60
+msgid "Get top add to cart items"
+msgstr ""
+
+#: inc/modules/api.php:68
+msgid "Get top purchased items"
+msgstr ""
+
+#: inc/modules/api.php:76
+msgid "Get promotion by id"
+msgstr ""
+
+#: inc/modules/api.php:98 inc/modules/shortcodes.php:86
+#, php-format
+msgid "This option availble only to Premium users. %s here."
+msgstr ""
+
+#: inc/modules/customize.php:39
+msgid "Customize"
+msgstr ""
+
+#: inc/modules/customize.php:66
+msgid "Layout background color"
+msgstr ""
+
+#: inc/modules/customize.php:84
+msgid "Font family - google font"
+msgstr ""
+
+#: inc/modules/customize.php:86
+#, php-format
+msgid "Wanna use custom font? %s and improve typography today."
+msgstr ""
+
+#: inc/modules/customize.php:105
+msgid "Titles font weight"
+msgstr ""
+
+#: inc/modules/customize.php:107 inc/modules/customize.php:123
+#: inc/modules/customize.php:133 inc/modules/customize.php:143
+#: inc/modules/customize.php:153 inc/modules/customize.php:166
+#: inc/modules/customize.php:178 inc/modules/customize.php:190
+#: inc/modules/customize.php:202 inc/modules/customize.php:215
+#: inc/modules/customize.php:230 inc/modules/customize.php:243
+#: inc/modules/customize.php:257
+#, php-format
+msgid "Wanna be free to play with it? %s and start customize today."
+msgstr ""
+
+#: inc/modules/customize.php:120
+msgid "Titles font size"
+msgstr ""
+
+#: inc/modules/customize.php:130
+msgid "Sub titles font size"
+msgstr ""
+
+#: inc/modules/customize.php:140
+msgid "Add to cart button font size"
+msgstr ""
+
+#: inc/modules/customize.php:150
+msgid "Promotions titles font size"
+msgstr ""
+
+#: inc/modules/customize.php:163
+msgid "Color of titles"
+msgstr ""
+
+#: inc/modules/customize.php:175
+msgid "Color of subtitles"
+msgstr ""
+
+#: inc/modules/customize.php:187
+msgid "Add to cart font collor"
+msgstr ""
+
+#: inc/modules/customize.php:199
+msgid "Add to cart backgound"
+msgstr ""
+
+#: inc/modules/customize.php:212
+msgid "Close icon color"
+msgstr ""
+
+#: inc/modules/customize.php:227
+msgid "Promotions color of titles"
+msgstr ""
+
+#: inc/modules/customize.php:240
+msgid "Terms Corrector font size"
+msgstr ""
+
+#: inc/modules/customize.php:254
+msgid "Color of Terms Corrector"
+msgstr ""
+
+#: inc/modules/datalayer.php:32
+msgid "Allow to fire ricerca's events to GTM datalayer"
+msgstr ""
+
+#: inc/modules/datalayer.php:33
+msgid "click here"
+msgstr ""
+
+#: inc/modules/datalayer.php:35
+#, php-format
+msgid "%s and start tracking behavior data on your site."
+msgstr ""
+
+#: inc/modules/popularterms.php:44
+msgid "Show popular searched terms"
+msgstr ""
+
+#: inc/modules/popularterms.php:47
+#, php-format
+msgid "%s to show popular search terms."
+msgstr ""
+
+#: inc/modules/popularterms.php:55
+msgid "Block terms from being shown as popular terms"
+msgstr ""
+
+#: inc/modules/popularterms.php:56
+msgid "(Comma separated, lowercase)"
+msgstr ""
+
+#: inc/modules/popularterms.php:58
+#, php-format
+msgid ""
+"Premium users can block terms. %s and start blocking your site's negative "
+"terms from being shown under Populat terms"
+msgstr ""
+
+#: inc/modules/popularterms.php:58 inc/modules/reports.php:59
+#: inc/modules/reports.php:100
+msgid "Upgrade here"
+msgstr ""
+
+#: inc/modules/popularterms.php:83
+msgid ""
+"Monitor and review this feature to delete unwanted terms to being shown as "
+"popular terms."
+msgstr ""
+
+#: inc/modules/popularterms.php:90 inc/modules/termcorrector.php:93
+msgid "Term"
+msgstr ""
+
+#: inc/modules/popularterms.php:91 inc/modules/termcorrector.php:95
+msgid "Count"
+msgstr ""
+
+#: inc/modules/promotions.php:44
+msgid "Show Promotion items"
+msgstr ""
+
+#: inc/modules/promotions.php:45
+msgid "In addition to be active, there is need to configure the module"
+msgstr ""
+
+#: inc/modules/promotions.php:47
+#, php-format
+msgid ""
+"%s in order to market and promote products throughout your site that has "
+"been engaged with ricerca's search results."
+msgstr ""
+
+#: inc/modules/promotions.php:57
+msgid "Promotions"
+msgstr ""
+
+#: inc/modules/promotions.php:98
+msgid "Add promotion"
+msgstr ""
+
+#: inc/modules/promotions.php:125
+msgid "Promotion title"
+msgstr ""
+
+#: inc/modules/promotions.php:129
+msgid "Layout"
+msgstr ""
+
+#: inc/modules/promotions.php:131
+msgid "Grid"
+msgstr ""
+
+#: inc/modules/promotions.php:132
+msgid "Carousel"
+msgstr ""
+
+#: inc/modules/promotions.php:137
+msgid "Items in row"
+msgstr ""
+
+#: inc/modules/promotions.php:142
+msgid "Items in view"
+msgstr ""
+
+#: inc/modules/promotions.php:148
+msgid "Insertion type"
+msgstr ""
+
+#: inc/modules/promotions.php:150
+msgid "Insert after"
+msgstr ""
+
+#: inc/modules/promotions.php:151
+msgid "Insert inside"
+msgstr ""
+
+#: inc/modules/promotions.php:152
+msgid "Replace selector content"
+msgstr ""
+
+#: inc/modules/promotions.php:157
+msgid "Promotion Query"
+msgstr ""
+
+#: inc/modules/promotions.php:159
+msgid "Top Clicked items"
+msgstr ""
+
+#: inc/modules/promotions.php:160
+msgid "Top Purchased"
+msgstr ""
+
+#: inc/modules/promotions.php:161
+msgid "Top Added to cart"
+msgstr ""
+
+#: inc/modules/promotions.php:167
+msgid "CSS selector"
+msgstr ""
+
+#: inc/modules/promotions.php:171
+msgid "Upgrade to premium"
+msgstr ""
+
+#: inc/modules/reports.php:29 inc/modules/reports.php:97
+#: inc/modules/reports.php:116 inc/modules/reports.php:117
+msgid "Reports"
+msgstr ""
+
+#: inc/modules/reports.php:50 inc/modules/reports.php:51
+#: inc/modules/reports.php:52 inc/modules/reports.php:53
+#: inc/modules/reports.php:54
+#, php-format
+msgid "After %d days"
+msgstr ""
+
+#: inc/modules/reports.php:56
+msgid "Delete reports"
+msgstr ""
+
+#: inc/modules/reports.php:59 inc/modules/reports.php:100
+#, php-format
+msgid ""
+"Wanna get real statistics data on your website's visitors engagement with "
+"Ricerc's search results? %s and start anlyzing your site."
+msgstr ""
+
+#: inc/modules/shortcodes.php:26 inc/modules/shortcodes.php:36
+msgid "Short codes"
+msgstr ""
+
+#: inc/modules/shortcodes.php:37
+msgid "Ricerca can work simply on a default WordPress search form."
+msgstr ""
+
+#: inc/modules/shortcodes.php:38
+msgid "If you need some customization here are some codes that can assist."
+msgstr ""
+
+#: inc/modules/shortcodes.php:42
+msgid "Form short code"
+msgstr ""
+
+#: inc/modules/shortcodes.php:51
+msgid "Icon button short code"
+msgstr ""
+
+#: inc/modules/shortcodes.php:52 inc/modules/shortcodes.php:61
+msgid "This shortcode can work only with Modal layout."
+msgstr ""
+
+#: inc/modules/shortcodes.php:60
+msgid "Labeled button short code"
+msgstr ""
+
+#: inc/modules/termcorrector.php:57
+#, php-format
+msgid "Too much terms to correct?  %s and start fix today."
+msgstr ""
+
+#: inc/modules/termcorrector.php:65
+msgid "Terms Corrector"
+msgstr ""
+
+#: inc/modules/termcorrector.php:85
+msgid ""
+"Monitor and review this feature to find terms which leads to \"Not found "
+"results\" on your site in order to suggest and show alternative results by "
+"fixing terms."
+msgstr ""
+
+#: inc/modules/termcorrector.php:86
+msgid "Make sure to set the right uppercase letters and lowercase letters."
+msgstr ""
+
+#: inc/modules/termcorrector.php:94
+msgid "Correct Term"
+msgstr ""
+
+#: inc/modules/termcorrector.php:97 inc/modules/termcorrector.php:116
+msgid "Fix term"
+msgstr ""
+
+#: inc/ric_class.php:411
+msgid "Done"
+msgstr ""
+
+#: inc/ric_class.php:412
+msgid "Finalizing."
+msgstr ""
+
+#: inc/ric_class.php:413
+msgid "Search"
+msgstr ""
+
+#: inc/ric_class.php:414
+msgid ""
+"Are you sure to delete? this item will back to the index if there is any "
+"misconfiguration setting"
+msgstr ""
+
+#: inc/ric_class.php:415
+msgid "Items found"
+msgstr ""
+
+#: inc/ric_class.php:513
+msgid "Settings"
+msgstr ""
+
+#: inc/status.php:87
+msgid "Export settings"
+msgstr ""
+
+#: inc/status.php:88
+msgid "Click here to export all settings."
+msgstr ""
+
+#: inc/status.php:89
+msgid "Export"
+msgstr ""
+
+#: inc/status.php:94
+msgid "Environment info"
+msgstr ""
+
+#: main.php:78
+msgid "Every 5 minutes"
+msgstr ""
+
+#: main.php:82
+msgid "Twice at hour"
+msgstr ""
+
+#: main.php:99
+#, php-format
+msgid "Ricerca requires minimum PHP version %s."
+msgstr ""
+
+#: main.php:101
+#, php-format
+msgid "Ricerca requires minimum WordPress version %s+."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Ricerca smart and advanced search"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://www.myricerca.com/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Advanced & fastest search engine. let your visitor simple find every thing "
+"the need."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "R2K TEAM"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://www.r2k.co.il/"
+msgstr ""

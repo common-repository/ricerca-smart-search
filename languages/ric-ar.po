@@ -1,0 +1,1258 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Ricerca Advanced Search\n"
+"POT-Creation-Date: 2024-05-30 15:56+0300\n"
+"PO-Revision-Date: 2024-05-30 15:56+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
+"&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5);\n"
+"X-Generator: Poedit 3.4.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: ricerca-smart-search.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: inc/admin_ajax.php:92
+msgid "No Items found in index"
+msgstr "لم يتم العثور على عناصر في الفهرس"
+
+#: inc/admin_ajax.php:97
+msgid "ID"
+msgstr "ID"
+
+#: inc/admin_ajax.php:98
+msgid "Title"
+msgstr "اسم"
+
+#: inc/admin_ajax.php:99
+msgid "Post type"
+msgstr "نوع المنشور"
+
+#: inc/admin_ajax.php:100
+msgid "Thumbnail"
+msgstr "صورة مصغرة"
+
+#: inc/admin_ajax.php:121
+msgid "Sync"
+msgstr "المزامنة"
+
+#: inc/admin_ajax.php:122 inc/modules/popularterms.php:92
+#: inc/modules/popularterms.php:105 inc/modules/termcorrector.php:96
+#: inc/modules/termcorrector.php:111
+msgid "Delete"
+msgstr "حذف"
+
+#: inc/admin_ajax.php:332 inc/admin_ajax.php:360
+msgid "No posts types to sync, plese modify the plugin's settings"
+msgstr "لم يتم العثور على محتوى للمزامنة، يرجى التأكد من الاعدادات"
+
+#: inc/admin_ajax.php:408 inc/status.php:53
+msgid "Invailed request"
+msgstr "طلب غير صالح"
+
+#: inc/admin_ajax.php:597
+msgid "Settings saved, Some of the changes will take a while."
+msgstr "تم حفظ الاعدادات، التغييرات قد تستغرق بعضا من الوقت"
+
+#: inc/admin_fields.php:26 inc/modules/customize.php:55
+#: inc/modules/termcorrector.php:54
+msgid "Active"
+msgstr "فعال"
+
+#: inc/admin_fields.php:27
+msgid "Preview mode"
+msgstr "وضع المعاينة"
+
+#: inc/admin_fields.php:29 inc/status.php:30 inc/status.php:31
+msgid "Status"
+msgstr "وضع"
+
+#: inc/admin_fields.php:31
+msgid ""
+"When preview mode is activated you can view Ricerca search by including this "
+"query in your url"
+msgstr ""
+"عند تنشيط وضع المعاينة، يمكنك عرض بحث Ricerca عن طريق تضمين هذا الاستعلام في "
+"عنوان url الخاص بك"
+
+#: inc/admin_fields.php:39
+msgid "Open items in a new tab"
+msgstr "فتح الروابط في علامة تبويب جديدة"
+
+#: inc/admin_fields.php:49
+msgid "Show link to a search results page at the bottom of the search drop down"
+msgstr "إظهار رابط إلى صفحة نتائج البحث في الجزء السفلي من البحث"
+
+#: inc/admin_fields.php:63
+msgid "Maximum results limit"
+msgstr "الحد الأقصى من النتائج"
+
+#: inc/admin_fields.php:65
+#, php-format
+msgid "No enough search reults?  %s and get up to 150 results."
+msgstr "لا توجد نتائج بحث كافية ؟  %s واحصل على ما يصل إلى 150 نتيجة."
+
+#: inc/admin_fields.php:65 inc/admin_fields.php:113 inc/admin_fields.php:190
+#: inc/admin_fields.php:236 inc/admin_fields.php:443 inc/admin_fields.php:458
+#: inc/admin_fields.php:511 inc/admin_fields.php:558 inc/admin_fields.php:575
+#: inc/admin_fields.php:588 inc/modules/api.php:98 inc/modules/customize.php:86
+#: inc/modules/customize.php:107 inc/modules/customize.php:123
+#: inc/modules/customize.php:133 inc/modules/customize.php:143
+#: inc/modules/customize.php:153 inc/modules/customize.php:166
+#: inc/modules/customize.php:178 inc/modules/customize.php:190
+#: inc/modules/customize.php:202 inc/modules/customize.php:215
+#: inc/modules/customize.php:230 inc/modules/customize.php:243
+#: inc/modules/customize.php:257 inc/modules/datalayer.php:35
+#: inc/modules/popularterms.php:47 inc/modules/promotions.php:47
+#: inc/modules/shortcodes.php:86 inc/modules/termcorrector.php:57
+msgid "Upgrade to Premium"
+msgstr "الترقية إلى Premium"
+
+#: inc/admin_fields.php:75
+msgid "Show categories list on search results layout"
+msgstr "عرض قائمة الفئات في تخطيط نتائج البحث"
+
+#: inc/admin_fields.php:84
+msgid "Show user searches history"
+msgstr "عرض سجل عبارات البحث للمستخدم"
+
+#: inc/admin_fields.php:85
+msgid "Last five search terms"
+msgstr "آخر خمس عبارات بحث"
+
+#: inc/admin_fields.php:99
+msgid "CSS selector to run the search modal."
+msgstr "محدد CSS لتشغيل نموذج البحث."
+
+#: inc/admin_fields.php:111
+msgid "Maximum categories results limit"
+msgstr "الحد الأقصى لنتائج الفئات"
+
+#: inc/admin_fields.php:113
+#, php-format
+msgid "No enough search reults?  %s and get up to 30 results."
+msgstr "لا توجد نتائج بحث كافية ؟  %s واحصل على ما يصل إلى 30 نتيجة."
+
+#: inc/admin_fields.php:125
+msgid "Show thumbnails in search results"
+msgstr "عرض الصور المصغرة في نتائج البحث"
+
+#: inc/admin_fields.php:137
+msgid "Displying full image - maintaining its aspect ratio"
+msgstr "Displying الصورة الكاملة - الحفاظ على نسبة العرض إلى الارتفاع"
+
+#: inc/admin_fields.php:138
+msgid "Cover - Displying part of the image"
+msgstr "غطاء - Displying جزء من الصورة"
+
+#: inc/admin_fields.php:140
+msgid "How image should be resized to fit its container?"
+msgstr "كيف يجب تغيير حجم الصورة لتناسب حاويتها ؟"
+
+#: inc/admin_fields.php:156
+msgid "Woocommerce support active"
+msgstr "دعم Woocommerce نشط"
+
+#: inc/admin_fields.php:167
+msgid "Link to a search results should show only products"
+msgstr "رابط المزيد من النتائج يجب ان يعرض منتجات فقط"
+
+#: inc/admin_fields.php:186
+msgid "Hide out of stock items from the search results"
+msgstr "إخفاء العناصر غير المتوفرة في المخزون"
+
+#: inc/admin_fields.php:190
+#, php-format
+msgid ""
+"%s and start excluding Not In Stock items from being shown in search results."
+msgstr ""
+"%s وابدأ في استبعاد العناصر غير الموجودة في المخزون من الظهور في نتائج البحث."
+
+#: inc/admin_fields.php:204
+msgid "Show add to cart url"
+msgstr "اظهار زر الإضافة الى سلة المشتريات"
+
+#: inc/admin_fields.php:213
+msgid "Show prices"
+msgstr "عرض الأسعار"
+
+#: inc/admin_fields.php:224
+msgid "Index product SKU"
+msgstr "فهرسة كود المنتج SKU"
+
+#: inc/admin_fields.php:234
+msgid "Pin purchasable products at the top of the search results."
+msgstr "تثبيت المنتجات القابلة للشراء في أعلى نتائج البحث."
+
+#: inc/admin_fields.php:236
+#, php-format
+msgid "%s and show purchasable products first."
+msgstr "%s واعرض المنتجات القابلة للشراء أولاً."
+
+#: inc/admin_fields.php:255
+msgid "Post's name sync"
+msgstr "مزامنة اسم المقال"
+
+#: inc/admin_fields.php:256
+msgid ""
+"Will show search results based on the post's name: for example: product name"
+msgstr "سيعرض نتائج البحث بناءً على اسم المقال: على سبيل المثال: اسم المنتج"
+
+#: inc/admin_fields.php:267
+msgid "Main content in posts"
+msgstr "المحتوى الرئيسي في المقالات"
+
+#: inc/admin_fields.php:268
+msgid "Will show search results based on content appearing in the visual editor"
+msgstr "سيعرض نتائج البحث بناءً على المحتوى الذي يظهر في محرر ووردبرس"
+
+#: inc/admin_fields.php:280
+msgid "Excerpt sync"
+msgstr "مزامنة المقتطفات"
+
+#: inc/admin_fields.php:281
+msgid ""
+"Will show search results based on the post's excerpt: for example: product "
+"excerpt"
+msgstr "سيعرض نتائج البحث بناءً على مقتطف المقال: على سبيل المثال: مقتطف المنتج"
+
+#: inc/admin_fields.php:292
+msgid "Categories name sync"
+msgstr "مزامنة اسم التصنيفات"
+
+#: inc/admin_fields.php:293
+msgid ""
+"will show results on the categories list based on the category name. For "
+"example: Searching the term Chairs will show categories on the categories "
+"list that it's name contains the term Chairs."
+msgstr ""
+"سيظهر النتائج في قائمة التصنيفات بناءً على اسم التصنيف. على سبيل المثال: سيظهر "
+"البحث عن مصطلح \"كراسي\" الفئات في قائمة الفئات التي يحتوي اسمها على مصطلح "
+"\"كراسي \"."
+
+#: inc/admin_fields.php:301
+msgid "Categories description sync"
+msgstr "مزامنة وصف التصنيفات"
+
+#: inc/admin_fields.php:302
+msgid ""
+"will show results on the categories list based on the category description. "
+"For example: Searching the term Chairs will show categories on the categories "
+"list that their description contains the term Chairs."
+msgstr ""
+"سيظهر النتائج في قائمة التصنيفات بناءً على وصف التصنيغ. على سبيل المثال: سيظهر "
+"البحث عن مصطلح كراسي التصنيفات في قائمة التصنيفات التي يحتوي وصفها على مصطلح "
+"كراسي."
+
+#: inc/admin_fields.php:358
+msgid "Simple layout"
+msgstr "تخطيط بسيط"
+
+#: inc/admin_fields.php:359
+msgid "Wide layout"
+msgstr "تخطيط موسع"
+
+#: inc/admin_fields.php:360
+msgid "Modal layout"
+msgstr "ملئ الشاشة"
+
+#: inc/admin_fields.php:362
+msgid "Search drop layout"
+msgstr "التصميم"
+
+#: inc/admin_fields.php:370
+msgid "Default width for wide screens"
+msgstr "عرض الشاشات الكبيرة"
+
+#: inc/admin_fields.php:378 inc/admin_fields.php:386 inc/admin_fields.php:394
+#: inc/admin_fields.php:402 inc/admin_fields.php:410
+#, php-format
+msgid "Default width for screens under %d px"
+msgstr "عرض الشاشات تحت %d px"
+
+#: inc/admin_fields.php:423
+msgid "Search field label"
+msgstr "تسمية حقل البحث"
+
+#: inc/admin_fields.php:439
+msgid ""
+"Name crossing - Crossing a search query with category name in order to "
+"display it's items"
+msgstr "تقاطع الاسم - تقاطع استعلام بحث مع اسم الفئة من أجل عرض عناصره"
+
+#: inc/admin_fields.php:440
+msgid ""
+"In addition to the existing search results, this feature shows product search "
+"results from the category whose it's named meets the requested term. For "
+"example, when searching Beds the system shows products that do not contain "
+"the word Beds but their category is Beds"
+msgstr ""
+"بالإضافة إلى نتائج البحث الحالية، تعرض هذه الميزة نتائج بحث المنتج من الفئة "
+"التي يتوافق اسمها مع المصطلح المطلوب. على سبيل المثال، عند البحث عن Beds، "
+"يعرض النظام منتجات لا تحتوي على كلمة Beds ولكن فئتها هي Beds"
+
+#: inc/admin_fields.php:443
+#, php-format
+msgid "%s and improve the way you customize your search results."
+msgstr "%s وتحسين طريقة تخصيص نتائج البحث."
+
+#: inc/admin_fields.php:455
+msgid "Index custom taxonomies names (comma seprated)"
+msgstr "أسماء التصنيفات المخصصة (مفصولة بفواصل)"
+
+#: inc/admin_fields.php:456
+msgid ""
+"Fill the taxonomy slug key  (Comma separated, recommended to consult an "
+"expert)"
+msgstr "املأ الاسم التصنيف اللطيف (مفصولة بفواصل، يوصى باستشارة خبير)"
+
+#: inc/admin_fields.php:458
+#, php-format
+msgid ""
+"%s, start syncing your custome taxonomies fields and get better control on "
+"your search results."
+msgstr ""
+"%s، ابدأ في مزامنة حقول التصنيفات الخاصة بك والحصول على تحكم أفضل في نتائج "
+"البحث."
+
+#: inc/admin_fields.php:469
+msgid "Custom image field meta key"
+msgstr "صورة مخصصة"
+
+#: inc/admin_fields.php:496
+msgid "Image size slug"
+msgstr "الاسم اللطيف لحجم الصورة"
+
+#: inc/admin_fields.php:497
+msgid "For best performance, please keep it as lower size you can."
+msgstr "للحصول على أفضل أداء، يرجى الاحتفاظ بها بحجم أقل يمكنك."
+
+#: inc/admin_fields.php:508
+msgid ""
+"Index additional meta fields Fill meta field's key names (comma seprated)"
+msgstr ""
+"فهرسة حقول التعريف الإضافية املأ الأسماء الرئيسية لحقل التعريف (مفصولة بفاصلة)"
+
+#: inc/admin_fields.php:509
+msgid ""
+"Fill meta field's key  (Comma separated, recommended to consult an expert)"
+msgstr "املأ مفتاح حقل التعريف (مفصول بفاصلة، يوصى باستشارة خبير)"
+
+#: inc/admin_fields.php:511
+#, php-format
+msgid ""
+"%s, start syncing your custome meta fields and get better control on your "
+"search results."
+msgstr ""
+"%s، ابدأ في مزامنة حقول التعريف الخاصة بك والحصول على تحكم أفضل في نتائج "
+"البحث."
+
+#: inc/admin_fields.php:550
+msgid "Automatic"
+msgstr "أوتوماتيك"
+
+#: inc/admin_fields.php:551
+msgid "Most cliked items"
+msgstr "العناصر الاكثر التي تم الضعط عليها"
+
+#: inc/admin_fields.php:552
+msgid "Best sellers from search results"
+msgstr "العناصر الاكثر مبيعًا"
+
+#: inc/admin_fields.php:553
+msgid "Most added to cart from search results"
+msgstr "العناصر الاكثر إضافة لسلة المشتريات"
+
+#: inc/admin_fields.php:555
+msgid ""
+"Order items by - Choose the order of the items on the search results layout"
+msgstr "ترتيب العناصر حسب - اختر ترتيب العناصر في تخطيط نتائج البحث"
+
+#: inc/admin_fields.php:558
+#, php-format
+msgid "%s and change items ordering."
+msgstr "%s وتغيير ترتيب العناصر."
+
+#: inc/admin_fields.php:569 inc/admin_fields.php:582
+msgid "Type at least two letters"
+msgstr "اكتب حرفين على الأقل"
+
+#: inc/admin_fields.php:573
+msgid "Exclude posts"
+msgstr "استبعاد مواضيع"
+
+#: inc/admin_fields.php:574
+msgid "Exclude posts from shown in search results"
+msgstr "استبعاد مقالات من الظهور في نتائج البحث"
+
+#: inc/admin_fields.php:575
+#, php-format
+msgid "Not enough posts to exclude?  %s and get up unlimited posts."
+msgstr "لا توجد مشاركات كافية لاستبعادها ؟  %s والحصول على مشاركات غير محدودة."
+
+#: inc/admin_fields.php:585
+msgid "Exclude categories"
+msgstr "استبعاد تصنيفات"
+
+#: inc/admin_fields.php:586
+msgid "Exclude posts of categories from shown in search results"
+msgstr "استبعاد مقالات حسب التصنيفات من الظهور في نتائج البحث"
+
+#: inc/admin_fields.php:588
+#, php-format
+msgid "%s and start hide unwanted categories."
+msgstr "%s وباشر باخفاء تصنيفات غير مرغوب بها."
+
+#: inc/admin_fields.php:602
+msgid "On page load"
+msgstr "عند تحميل الصفحة"
+
+#: inc/admin_fields.php:603
+#, fuzzy
+#| msgid "After load, using AJAX"
+msgid "Directly after load, using AJAX"
+msgstr "بعد التحميل، باستخدام AJAX"
+
+#: inc/admin_fields.php:604
+msgid ""
+"After first engagement (Scroll, Touch Click.., this is best for page speed "
+"load), using AJAX"
+msgstr ""
+"بعد الحدث الأول (التمرير، النقر باللمس..، هذا هو الأفضل لسرعة تحميل الصفحة)، "
+"باستخدام AJAX"
+
+#: inc/admin_fields.php:606
+msgid "When Index items should loaded in the front?"
+msgstr "متى يجب تحميل عناصر الفهرس في المقدمة ؟"
+
+#: inc/admin_fields.php:607
+msgid ""
+"We prefer On page load. but in large amount of posts this can make conflict "
+"with some page cache plugins"
+msgstr ""
+"نحن نفضل تحميل الصفحة. ولكن في عدد كبير من المشاركات، يمكن أن يؤدي ذلك إلى "
+"تعارض مع بعض ملحقات ذاكرة التخزين المؤقت للصفحة"
+
+#: inc/admin_fields.php:617
+msgid "Load CSS as inline instead of files"
+msgstr "تحميل ال CSS بطريقة INLINE عوضًا عن تحميل ملف"
+
+#: inc/admin_fields.php:628
+msgid "None"
+msgstr "بدون"
+
+#: inc/admin_fields.php:629
+msgid "1 Minute"
+msgstr "دقيقة واحدة"
+
+#: inc/admin_fields.php:630 inc/admin_fields.php:631 inc/admin_fields.php:632
+#: inc/admin_fields.php:633
+#, php-format
+msgid "%d Minutes"
+msgstr "%d دقائق"
+
+#: inc/admin_fields.php:635
+msgid "Cache expire time for get items query on the frontend?"
+msgstr ""
+"وقت انتهاء صلاحية ذاكرة التخزين المؤقت للاستعلام عن العناصر في الواجهة "
+"الأمامية ؟"
+
+#: inc/admin_fields.php:636
+msgid "In case of busy site, keep it as higher you can"
+msgstr "في حالة ازدحام الموقع، احتفظ به أعلى مستوى ممكن"
+
+#: inc/admin_fields.php:646
+msgid ""
+"Amount of items to be synced in each automatic or manual request (every 5 min)"
+msgstr "كمية العناصر التي سيتم مزامنتها في كل طلب تلقائي أو يدوي (كل 5 دقائق)"
+
+#: inc/admin_fields.php:647
+msgid "In case of busy site, keep it as lower you can"
+msgstr "اذا كان موقعك يعاني من بطئ، مفضل تعيين اقل رقم ممكن"
+
+#: inc/admin_menu.php:15 inc/admin_menu.php:16 inc/admin_menu.php:164
+msgid "Ricerca Search"
+msgstr "بحث Ricerca"
+
+#: inc/admin_menu.php:24 inc/admin_menu.php:25
+msgid "Index"
+msgstr "الفهرس"
+
+#: inc/admin_menu.php:38 inc/admin_menu.php:39 inc/admin_menu.php:61
+msgid "Collections Creator"
+msgstr "منشئ المجموعات"
+
+#: inc/admin_menu.php:63
+msgid ""
+"Upgrade to premium and create items collections and expose your visitore for "
+"more items on search results"
+msgstr ""
+"قم بالترقية إلى المجموعات المتميزة وإنشاء مجموعات العناصر واعرض زيارتك لمزيد "
+"من العناصر في نتائج البحث"
+
+#: inc/admin_menu.php:67
+msgid "Add new collection"
+msgstr "اضف المجموعة"
+
+#: inc/admin_menu.php:115
+msgid "General"
+msgstr " العام"
+
+#: inc/admin_menu.php:119
+msgid "Posts indexing options"
+msgstr "خيارات فهرسة المقالات"
+
+#: inc/admin_menu.php:123
+msgid "Categories results - terms indexing options"
+msgstr "نتائج الفئات - خيارات فهرسة المصطلحات"
+
+#: inc/admin_menu.php:127
+msgid "Post types to sync"
+msgstr "أنواع المقالات"
+
+#: inc/admin_menu.php:131
+msgid "Taxonomies to sync"
+msgstr "التصنيفات المراد مزامنتها"
+
+#: inc/admin_menu.php:132
+msgid ""
+"Example: In case your site has Brands as taxonomy and you would like to show "
+"search results of items of a certain brand."
+msgstr ""
+"مثال: إذا كان موقعك يحتوي على علامات تجارية كتصنيف وكنت ترغب في عرض نتائج "
+"البحث لعناصر علامة تجارية معينة."
+
+#: inc/admin_menu.php:136
+msgid "Thumbnails"
+msgstr "الصورة المصغرة"
+
+#: inc/admin_menu.php:141
+msgid "Woocommerce compatibility"
+msgstr "توافق WooCommerce"
+
+#: inc/admin_menu.php:146
+msgid "Advanced rules"
+msgstr "قوانين متقدمة"
+
+#: inc/admin_menu.php:150
+msgid "Miscellaneous"
+msgstr "متنوع"
+
+#: inc/admin_menu.php:154
+msgid "Performance"
+msgstr "الأداء"
+
+#: inc/admin_menu.php:229
+msgid "Save settings"
+msgstr "حفظ الإعدادات"
+
+#: inc/admin_menu.php:230
+msgid "Save settings and sync"
+msgstr "حفظ الإعدادات والمزامنة"
+
+#: inc/admin_menu.php:280
+msgid "Have A Question?"
+msgstr "هل لديك سؤال؟ "
+
+#: inc/admin_menu.php:281
+msgid "Drop us a line and we will get back at you as soon as possible"
+msgstr "سنرد عليك بأسرع ما يمكن. "
+
+#: inc/admin_menu.php:284
+msgid "Contact Us"
+msgstr "اتصل بنا"
+
+#: inc/admin_menu.php:407
+msgid "Running first Sync, please wait..."
+msgstr "جارٍ تشغيل المزامنة الأولى، يرجى الانتظار..."
+
+#: inc/functions.php:16
+msgid "Sync in process, please wait!"
+msgstr "المزامنة قيد المعالجة، يرجى الانتظار!"
+
+#: inc/functions.php:17
+msgid "Please keep this tab open."
+msgstr "الرجاء عدم اغلاق هذه الصفحة"
+
+#: inc/functions.php:31
+msgid "Upgrade to premium!"
+msgstr "الترقية إلى Premium"
+
+#: inc/functions.php:220
+msgid "Additional results for"
+msgstr "المزيد من النتائج من"
+
+#: inc/functions.php:221 inc/functions.php:363
+msgid "Add to cart"
+msgstr "أضف إلى السلة"
+
+#: inc/functions.php:222
+msgid "Additional info"
+msgstr "معلومات إضافية"
+
+#: inc/functions.php:223 inc/modules/popularterms.php:29
+msgid "Popular terms"
+msgstr "مصطلحات شائعة"
+
+#: inc/functions.php:224
+msgid "Results:"
+msgstr "نتائج:"
+
+#: inc/functions.php:225 inc/functions.php:361
+msgid "More info"
+msgstr "معلومات إضافية"
+
+#: inc/functions.php:226
+msgid "Added to cart"
+msgstr "تم الإضافة الى السلة"
+
+#: inc/functions.php:227
+msgid "Categories Results"
+msgstr "نتائج التصنيفات"
+
+#: inc/functions.php:228
+msgid "No results found"
+msgstr "لا توجد نتائج"
+
+#: inc/functions.php:229
+msgid "Loading data, please wait..."
+msgstr "يتم تحميل البيانات، يرجى الانتظار..."
+
+#: inc/functions.php:242 inc/functions.php:268
+msgid "Close"
+msgstr "إغلاق"
+
+#: inc/functions.php:247
+msgid "What you are looking for today?"
+msgstr "ما الذي تبحث عنه اليوم؟"
+
+#: inc/functions.php:485
+msgid "Sync data"
+msgstr "مزامنة البيانات"
+
+#: inc/functions.php:488
+msgid "Start a manual sync"
+msgstr "ابدأ المزامنة اليدوية"
+
+#: inc/modules/api.php:30 inc/modules/api.php:41
+msgid "Api"
+msgstr "API"
+
+#: inc/modules/api.php:46
+msgid ""
+"IMPORTANT: when using one or more of these functions, you must check for its "
+"existence before using it, otherwise your site will badly break with a fatal "
+"error at the next Plugin update (as WordPress deletes the plugin when "
+"updating it)."
+msgstr ""
+"هام: عند استخدام واحدة أو أكثر من هذه الوظائف، يجب عليك التحقق من وجودها قبل "
+"استخدامها، وإلا فإن موقعك سوف ينكسر بشكل سيء مع خطأ فادح في تحديث المكون "
+"الإضافي التالي (حيث يقوم WordPress بحذف المكون الإضافي عند تحديثه)."
+
+#: inc/modules/api.php:48
+msgid "Using API can give you the ability to enhancing our features."
+msgstr "يمكن أن يمنحك استخدام واجهة برمجة التطبيقات القدرة على تحسين ميزاتنا."
+
+#: inc/modules/api.php:54
+msgid "Get top clicked items"
+msgstr "الحصول على العناصر التي تم النقر فوقها"
+
+#: inc/modules/api.php:60
+msgid "Get top add to cart items"
+msgstr "الحصول على أعلى إضافة إلى عناصر سلة التسوق"
+
+#: inc/modules/api.php:68
+msgid "Get top purchased items"
+msgstr "احصل على أفضل العناصر المشتراة"
+
+#: inc/modules/api.php:76
+msgid "Get promotion by id"
+msgstr "احصل على العرض الترويجي عن طريق المعرف"
+
+#: inc/modules/api.php:98 inc/modules/shortcodes.php:86
+#, php-format
+msgid "This option availble only to Premium users. %s here."
+msgstr "هذا الخيار متاح فقط للمستخدمين المميزين. %s هنا."
+
+#: inc/modules/customize.php:39
+msgid "Customize"
+msgstr "تخصيص"
+
+#: inc/modules/customize.php:66
+msgid "Layout background color"
+msgstr "لون خلفية التصميم"
+
+#: inc/modules/customize.php:84
+msgid "Font family - google font"
+msgstr "عائلة الخطوط - خط جوجل"
+
+#: inc/modules/customize.php:86
+#, php-format
+msgid "Wanna use custom font? %s and improve typography today."
+msgstr "هل تريد استخدام خط مخصص ؟ %s وتحسين الطباعة اليوم."
+
+#: inc/modules/customize.php:105
+msgid "Titles font weight"
+msgstr "وزن خط العناوين"
+
+#: inc/modules/customize.php:107 inc/modules/customize.php:123
+#: inc/modules/customize.php:133 inc/modules/customize.php:143
+#: inc/modules/customize.php:153 inc/modules/customize.php:166
+#: inc/modules/customize.php:178 inc/modules/customize.php:190
+#: inc/modules/customize.php:202 inc/modules/customize.php:215
+#: inc/modules/customize.php:230 inc/modules/customize.php:243
+#: inc/modules/customize.php:257
+#, php-format
+msgid "Wanna be free to play with it? %s and start customize today."
+msgstr "هل تريد أن تكون حرًا في التصرف به ؟ %s وابدأ التخصيص اليوم."
+
+#: inc/modules/customize.php:120
+msgid "Titles font size"
+msgstr "حجم الخط"
+
+#: inc/modules/customize.php:130
+msgid "Sub titles font size"
+msgstr "حجم خط العناوين الفرعية"
+
+#: inc/modules/customize.php:140
+msgid "Add to cart button font size"
+msgstr "حجم الخط \"إضافة إلى السلة\""
+
+#: inc/modules/customize.php:150
+msgid "Promotions titles font size"
+msgstr "حجم خط عناوين العروض الترويجية"
+
+#: inc/modules/customize.php:163
+msgid "Color of titles"
+msgstr "لون العناوين"
+
+#: inc/modules/customize.php:175
+msgid "Color of subtitles"
+msgstr "لون العناوين الثانوية"
+
+#: inc/modules/customize.php:187
+msgid "Add to cart font collor"
+msgstr "لون خط \"أضف إلى عربة التسوق\""
+
+#: inc/modules/customize.php:199
+msgid "Add to cart backgound"
+msgstr "لون خلفية \"أضف إلى عربة التسوق\""
+
+#: inc/modules/customize.php:212
+msgid "Close icon color"
+msgstr "لون رمز زر الاغلاق"
+
+#: inc/modules/customize.php:227
+msgid "Promotions color of titles"
+msgstr "لون عنواين العروض الترويجية"
+
+#: inc/modules/customize.php:240
+msgid "Terms Corrector font size"
+msgstr "حجم خط المصحح"
+
+#: inc/modules/customize.php:254
+msgid "Color of Terms Corrector"
+msgstr "مصحح لون المصطلحات"
+
+#: inc/modules/datalayer.php:32
+msgid "Allow to fire ricerca's events to GTM datalayer"
+msgstr "السماح بإطلاق أحداث ricerca على datalayer GTM"
+
+#: inc/modules/datalayer.php:33
+msgid "click here"
+msgstr "انقر هنا"
+
+#: inc/modules/datalayer.php:35
+#, php-format
+msgid "%s and start tracking behavior data on your site."
+msgstr "%s وابدأ في تتبع بيانات السلوك على موقعك."
+
+#: inc/modules/popularterms.php:44
+msgid "Show popular searched terms"
+msgstr "إظهار مصطلحات البحث الشائعة"
+
+#: inc/modules/popularterms.php:47
+#, php-format
+msgid "%s to show popular search terms."
+msgstr "%s لإظهار مصطلحات البحث الشائعة."
+
+#: inc/modules/popularterms.php:55
+msgid "Block terms from being shown as popular terms"
+msgstr "منع المصطلحات من العرض كمصطلحات شائعة"
+
+#: inc/modules/popularterms.php:56
+msgid "(Comma separated, lowercase)"
+msgstr "(مفصولة بفاصلة ، صغيرة)"
+
+#: inc/modules/popularterms.php:58
+#, php-format
+msgid ""
+"Premium users can block terms. %s and start blocking your site's negative "
+"terms from being shown under Populat terms"
+msgstr ""
+"يمكن للمستخدمين المتميزين حظر الشروط. %s والبدء في حظر عرض الشروط السلبية "
+"لموقعك تحت شروط Populat"
+
+#: inc/modules/popularterms.php:58 inc/modules/reports.php:59
+#: inc/modules/reports.php:100
+msgid "Upgrade here"
+msgstr "الترقية هنا"
+
+#: inc/modules/popularterms.php:83
+msgid ""
+"Monitor and review this feature to delete unwanted terms to being shown as "
+"popular terms."
+msgstr ""
+"راقب هذه الميزة وراجعها لحذف المصطلحات غير المرغوب فيها ليتم عرضها كمصطلحات "
+"شائعة."
+
+#: inc/modules/popularterms.php:90 inc/modules/termcorrector.php:93
+msgid "Term"
+msgstr "كلمة"
+
+#: inc/modules/popularterms.php:91 inc/modules/termcorrector.php:95
+msgid "Count"
+msgstr "عدد"
+
+#: inc/modules/promotions.php:44
+msgid "Show Promotion items"
+msgstr "إظهار العروض الترويجية"
+
+#: inc/modules/promotions.php:45
+msgid "In addition to be active, there is need to configure the module"
+msgstr "بالإضافة إلى أن تكون نشطة، هناك حاجة لتكوين وحدة"
+
+#: inc/modules/promotions.php:47
+#, php-format
+msgid ""
+"%s in order to market and promote products throughout your site that has been "
+"engaged with ricerca's search results."
+msgstr ""
+"%s من أجل تسويق وترويج المنتجات في جميع أنحاء موقعك التي تم إشراكها في نتائج "
+"بحث ريسيركا."
+
+#: inc/modules/promotions.php:57
+msgid "Promotions"
+msgstr "عروض ترويجية"
+
+#: inc/modules/promotions.php:98
+msgid "Add promotion"
+msgstr "إضافة عرض ترويجي"
+
+#: inc/modules/promotions.php:125
+msgid "Promotion title"
+msgstr "عنوان"
+
+#: inc/modules/promotions.php:129
+msgid "Layout"
+msgstr "التصميم"
+
+#: inc/modules/promotions.php:131
+msgid "Grid"
+msgstr "شبكة"
+
+#: inc/modules/promotions.php:132
+msgid "Carousel"
+msgstr ""
+
+#: inc/modules/promotions.php:137
+msgid "Items in row"
+msgstr "عناصر في سرب"
+
+#: inc/modules/promotions.php:142
+msgid "Items in view"
+msgstr "العناصر المعروضة"
+
+#: inc/modules/promotions.php:148
+msgid "Insertion type"
+msgstr "نوع الإدراج"
+
+#: inc/modules/promotions.php:150
+msgid "Insert after"
+msgstr "إدراج بعد"
+
+#: inc/modules/promotions.php:151
+msgid "Insert inside"
+msgstr "إدراج بداخل"
+
+#: inc/modules/promotions.php:152
+msgid "Replace selector content"
+msgstr "استبدال محتوى المحدد"
+
+#: inc/modules/promotions.php:157
+msgid "Promotion Query"
+msgstr "استعلام عن العرض الترويجي"
+
+#: inc/modules/promotions.php:159
+msgid "Top Clicked items"
+msgstr "اعلى المنتجات المضغوط عليها"
+
+#: inc/modules/promotions.php:160
+msgid "Top Purchased"
+msgstr "اعلى المنتجات المشتراه"
+
+#: inc/modules/promotions.php:161
+msgid "Top Added to cart"
+msgstr "יاعلى المنتجات المضافة"
+
+#: inc/modules/promotions.php:167
+msgid "CSS selector"
+msgstr "محدد CSS"
+
+#: inc/modules/promotions.php:171
+msgid "Upgrade to premium"
+msgstr "الترقية إلى Premium"
+
+#: inc/modules/reports.php:29 inc/modules/reports.php:97
+#: inc/modules/reports.php:116 inc/modules/reports.php:117
+msgid "Reports"
+msgstr "التقارير"
+
+#: inc/modules/reports.php:50 inc/modules/reports.php:51
+#: inc/modules/reports.php:52 inc/modules/reports.php:53
+#: inc/modules/reports.php:54
+#, php-format
+msgid "After %d days"
+msgstr "بعد %d أيام"
+
+#: inc/modules/reports.php:56
+msgid "Delete reports"
+msgstr "حذف التقارير"
+
+#: inc/modules/reports.php:59 inc/modules/reports.php:100
+#, php-format
+msgid ""
+"Wanna get real statistics data on your website's visitors engagement with "
+"Ricerc's search results? %s and start anlyzing your site."
+msgstr ""
+"هل تريد الحصول على بيانات إحصائية حقيقية حول تفاعل زوار موقعك على الويب مع "
+"نتائج بحث Ricerc ؟ %s وابدأ في تحليل موقعك."
+
+#: inc/modules/shortcodes.php:26 inc/modules/shortcodes.php:36
+msgid "Short codes"
+msgstr "شورت كود زر تشغيل"
+
+#: inc/modules/shortcodes.php:37
+msgid "Ricerca can work simply on a default WordPress search form."
+msgstr "يمكن أن يعمل Ricerca ببساطة على نموذج بحث WordPress الافتراضي."
+
+#: inc/modules/shortcodes.php:38
+msgid "If you need some customization here are some codes that can assist."
+msgstr "إذا كنت بحاجة إلى بعض التخصيص، فإليك بعض الرموز التي يمكن أن تساعد."
+
+#: inc/modules/shortcodes.php:42
+msgid "Form short code"
+msgstr "رمز قصير للنموذج"
+
+#: inc/modules/shortcodes.php:51
+msgid "Icon button short code"
+msgstr "شورت كود زر تشغيل مع رمز تعبيري"
+
+#: inc/modules/shortcodes.php:52 inc/modules/shortcodes.php:61
+msgid "This shortcode can work only with Modal layout."
+msgstr "هذا الرمز القصير يمكن أن يعمل فقط مع تخطيط مشروط."
+
+#: inc/modules/shortcodes.php:60
+msgid "Labeled button short code"
+msgstr "شورت كود زر تشغيل"
+
+#: inc/modules/termcorrector.php:57
+#, php-format
+msgid "Too much terms to correct?  %s and start fix today."
+msgstr "مصطلحات كثيرة جدًا لتصحيحها ؟  %s وابدأ الإصلاح اليوم."
+
+#: inc/modules/termcorrector.php:65
+msgid "Terms Corrector"
+msgstr "مصحح المصطلحات"
+
+#: inc/modules/termcorrector.php:85
+msgid ""
+"Monitor and review this feature to find terms which leads to \"Not found "
+"results\" on your site in order to suggest and show alternative results by "
+"fixing terms."
+msgstr ""
+"راقب هذه الميزة وراجعها للعثور على المصطلحات التي تؤدي إلى \"نتائج لم يتم "
+"العثور عليها\" على موقعك من أجل اقتراح وإظهار نتائج بديلة عن طريق تحديد "
+"المصطلحات."
+
+#: inc/modules/termcorrector.php:86
+msgid "Make sure to set the right uppercase letters and lowercase letters."
+msgstr "تأكد من تعيين الحروف الكبيرة والحروف الصغيرة الصحيحة."
+
+#: inc/modules/termcorrector.php:94
+msgid "Correct Term"
+msgstr "المصطلح الصحيح"
+
+#: inc/modules/termcorrector.php:97 inc/modules/termcorrector.php:116
+msgid "Fix term"
+msgstr "إصلاح"
+
+#: inc/ric_class.php:411
+msgid "Done"
+msgstr "تم"
+
+#: inc/ric_class.php:412
+msgid "Finalizing."
+msgstr "جاري الإنهاء..."
+
+#: inc/ric_class.php:413
+msgid "Search"
+msgstr "بحث"
+
+#: inc/ric_class.php:414
+msgid ""
+"Are you sure to delete? this item will back to the index if there is any "
+"misconfiguration setting"
+msgstr ""
+"هل أنت متأكد من الحذف ؟ سيعود هذا العنصر إلى الفهرس إذا كان هناك أي إعداد "
+"تكوين خاطئ"
+
+#: inc/ric_class.php:415
+msgid "Items found"
+msgstr "نتيجه موجوده"
+
+#: inc/ric_class.php:513
+msgid "Settings"
+msgstr " الإعدادات"
+
+#: inc/status.php:87
+msgid "Export settings"
+msgstr "تصدير الإعدادات"
+
+#: inc/status.php:88
+msgid "Click here to export all settings."
+msgstr "انقر هنا لتصدير جميع الإعدادات."
+
+#: inc/status.php:89
+msgid "Export"
+msgstr "تصدير"
+
+#: inc/status.php:94
+msgid "Environment info"
+msgstr "بيئة العمل"
+
+#: main.php:78
+msgid "Every 5 minutes"
+msgstr "كل 5 دقائق"
+
+#: main.php:82
+msgid "Twice at hour"
+msgstr ""
+
+#: main.php:99
+#, php-format
+msgid "Ricerca requires minimum PHP version %s."
+msgstr ""
+
+#: main.php:101
+#, php-format
+msgid "Ricerca requires minimum WordPress version %s+."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Ricerca smart and advanced search"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://www.myricerca.com/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Advanced & fastest search engine. let your visitor simple find every thing "
+"the need."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "R2K TEAM"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://www.r2k.co.il/"
+msgstr ""
+
+#~ msgid ""
+#~ "Wanna get real statistics data on your website's visitors engagement with "
+#~ "Ricerc's search results? %s and start anlyzing your site "
+#~ msgstr ""
+#~ "هل تريد الحصول على بيانات إحصائية حقيقية حول تفاعل زوار موقعك على الويب مع "
+#~ "نتائج بحث Ricerc ؟ %s وابدأ في تحليل موقعك."
+
+#~ msgid "After 7 days"
+#~ msgstr "بعد 7 أيام"
+
+#~ msgid "After 30 days"
+#~ msgstr "بعد 30 يوما"
+
+#~ msgid "After 60 days"
+#~ msgstr "60 يوم"
+
+#~ msgid "After 180 days"
+#~ msgstr "حذف بعد 180 يومًا."
+
+#~ msgid "After 365 days"
+#~ msgstr "بعد 365 يومًا"
+
+#~ msgid "Default width for screens under 1400px"
+#~ msgstr "عرض الشاشات تحت 1280px"
+
+#~ msgid "Default width for screens under 1280px"
+#~ msgstr "عرض الشاشات تحت 1280px"
+
+#~ msgid "Update to Premium"
+#~ msgstr "الترقية إلى Premium"
+
+#~ msgid "Need this feature?  %s and start promote your items better."
+#~ msgstr "هل تحتاج إلى هذه الميزة ؟  %s وابدأ في الترويج لعناصرك بشكل أفضل."
+
+#~ msgid ""
+#~ "Upgrade to premium in order to market and promote products throughout your "
+#~ "site that has been engaged with ricerca's search results."
+#~ msgstr ""
+#~ "قم بالترقية إلى PREMIUM من أجل تسويق المنتجات والترويج لها في جميع أنحاء "
+#~ "موقعك الذي شارك في نتائج بحث RICERCA."
+
+#~ msgid "No posts types to sync, plese modify plugin settings"
+#~ msgstr ""
+#~ "لا توجد أنواع منشورات لمزامنتها ، يرجى تعديل إعدادات البرنامج المساعد"
+
+#~ msgid ""
+#~ "When preview mode activated, then you can view the search by include this "
+#~ "query in your url"
+#~ msgstr ""
+#~ "عند تنشيط وضع المعاينة ، يمكنك عرض البحث عن طريق تضمين هذا الاستعلام في "
+#~ "عنوان URL الخاص بك"
+
+#~ msgid ""
+#~ "Show at the bottom of the search drop a link to the search results page"
+#~ msgstr "إظهار رابط إلى صفحة نتائج البحث في الجزء السفلي من البحث"
+
+#~ msgid "Show thumbnails in results"
+#~ msgstr "اعرض الصور المصغره"
+
+#~ msgid ""
+#~ "The entire object is made to fill the box, while preserving its aspect "
+#~ "ratio."
+#~ msgstr ""
+#~ "يتم إنشاء الكائن بأكمله لملء المربع، مع الحفاظ على نسبة العرض إلى الارتفاع."
+
+#~ msgid ""
+#~ "The replaced content is sized to maintain its aspect ratio while filling "
+#~ "the element's entire content box"
+#~ msgstr ""
+#~ "يتم تحديد حجم المحتوى المستبدل للحفاظ على نسبة العرض إلى الارتفاع أثناء "
+#~ "ملء مربع المحتوى الكامل للعنصر"
+
+#~ msgid "Amount of items to be sync in each request (every 5 min)"
+#~ msgstr "كمية العناصر المراد مزامنتها في كل طلب (كل 5 دقائق)"
+
+#~ msgid ""
+#~ "Will show serch results based on the post's name: for example: product name"
+#~ msgstr ""
+#~ "سيظهر نتائج المسلسل بناءً على اسم المنشور: على سبيل المثال: اسم المنتج"
+
+#~ msgid "Will show serch results based con ontent appear in the visual editor"
+#~ msgstr "سوف تظهر نتائج السيرش على أساس كونتنت تظهر في المحرر المرئي"
+
+#~ msgid ""
+#~ "Will show serch results based on the post's excerpt: for example: product "
+#~ "excerpt"
+#~ msgstr ""
+#~ "سيظهر نتائج المسلسل بناءً على مقتطف المنشور: على سبيل المثال: مقتطف المنتج"
+
+#~ msgid "Working in case of woocommerce plugin action"
+#~ msgstr "تعمل في حال تواجد إضافة ووكومرس"
+
+#~ msgid "Block terms from show as a popular terms"
+#~ msgstr "منع المصطلحات من العرض كمصطلحات شائعة"
+
+#~ msgid "Terms indexing options"
+#~ msgstr "خيارات فهرسة التصنيفات"
+
+#~ msgid "Save all settings"
+#~ msgstr "حفظ جميع الإعدادات"
+
+#~ msgid "Settings saved"
+#~ msgstr "تم حفظ التغييرات"
+
+#~ msgid ""
+#~ "When preview mode activated, then you can view the search by include this "
+#~ "query in your url <br/> ?ric_prev_mode=true"
+#~ msgstr ""
+#~ "عند تنشيط وضع المعاينة ، يمكنك عرض البحث من خلال تضمين هذا الاستعلام في "
+#~ "عنوان url الخاص بك<br/> ؟ ric_prev_mode = صحيح"
+
+#~ msgid "Show url to the search results page"
+#~ msgstr "إظهار عنوان url لصفحة نتائج البحث"
+
+#~ msgid "Items to sync per request"
+#~ msgstr "عناصر للمزامنة لكل طلب"
+
+#~ msgid "Table of winners"
+#~ msgstr "جدول الفائزين"
+
+#~ msgid "From date"
+#~ msgstr "من تاريخ"
+
+#~ msgid "To date"
+#~ msgstr "الي تاريخ"
+
+#~ msgid "Click on items"
+#~ msgstr "انقر فوق العناصر"
+
+#~ msgid "Item"
+#~ msgstr "عنصر"
+
+#~ msgid "Platform"
+#~ msgstr "المنصة"
+
+#~ msgid "Browser"
+#~ msgstr "المتصفح"
+
+#~ msgid "OS"
+#~ msgstr "النظام"
+
+#~ msgid "Screen"
+#~ msgstr "الشاشة"
+
+#~ msgid "Woocommerce interactions winners"
+#~ msgstr "الفائزون في تفاعلات Woocommerce"
+
+#~ msgid "Purchases"
+#~ msgstr "المشتريات"
+
+#~ msgid "Conversion rate"
+#~ msgstr "Conversion Rate"
+
+#~ msgid "Top 10 terms"
+#~ msgstr "إظهار مصطلحات البحث الشائعة"
+
+#~ msgid "Top 10 items"
+#~ msgstr "أهم 10 عناصر"
+
+#~ msgid "Terms by date"
+#~ msgstr "مصطلحات حسب التاريخ"
+
+#~ msgid "Added to cart by date"
+#~ msgstr "أضيفت إلى عربة التسوق حسب التاريخ"
+
+#~ msgid "Purchased by date"
+#~ msgstr "تم شراؤها حسب التاريخ"
+
+#~ msgid "More results from"
+#~ msgstr "المزيد من النتائج من"
+
+#~ msgid "What you are searching for today?"
+#~ msgstr "ما الذي تبحث عنه اليوم؟"
+
+#~ msgid "Enhanced search Note: please check system requirements!"
+#~ msgstr "بحث محسن ملاحظة: يرجى التحقق من متطلبات النظام!"

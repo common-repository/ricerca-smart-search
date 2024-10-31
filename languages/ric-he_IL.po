@@ -1,0 +1,1352 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Ricerca Advanced Search\n"
+"POT-Creation-Date: 2024-05-30 15:56+0300\n"
+"PO-Revision-Date: 2024-05-30 15:56+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: he_IL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.4.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: ricerca-smart-search.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: inc/admin_ajax.php:92
+msgid "No Items found in index"
+msgstr "לא נמצאו פריטים באינדקס"
+
+#: inc/admin_ajax.php:97
+msgid "ID"
+msgstr "מזהה"
+
+#: inc/admin_ajax.php:98
+msgid "Title"
+msgstr "כותרת"
+
+#: inc/admin_ajax.php:99
+msgid "Post type"
+msgstr "סוג פוסט"
+
+#: inc/admin_ajax.php:100
+msgid "Thumbnail"
+msgstr "תמונה"
+
+#: inc/admin_ajax.php:121
+msgid "Sync"
+msgstr "סנכרון"
+
+#: inc/admin_ajax.php:122 inc/modules/popularterms.php:92
+#: inc/modules/popularterms.php:105 inc/modules/termcorrector.php:96
+#: inc/modules/termcorrector.php:111
+msgid "Delete"
+msgstr "מחיקה"
+
+#: inc/admin_ajax.php:332 inc/admin_ajax.php:360
+msgid "No posts types to sync, plese modify the plugin's settings"
+msgstr "לא מצאנו פוסטים לסנכרון, אנא בדקו את הגדרות האינדוקס בממשק התוסף"
+
+#: inc/admin_ajax.php:408 inc/status.php:53
+msgid "Invailed request"
+msgstr "בקשה לא חוקית"
+
+#: inc/admin_ajax.php:597
+msgid "Settings saved, Some of the changes will take a while."
+msgstr "ההגדרות נשמרו, חלק מהשינויים יימשכו זמן מה."
+
+#: inc/admin_fields.php:26 inc/modules/customize.php:55
+#: inc/modules/termcorrector.php:54
+msgid "Active"
+msgstr "פעיל"
+
+#: inc/admin_fields.php:27
+msgid "Preview mode"
+msgstr "תצוגה מקדימה"
+
+#: inc/admin_fields.php:29 inc/status.php:30 inc/status.php:31
+msgid "Status"
+msgstr "סטטוס"
+
+#: inc/admin_fields.php:31
+msgid ""
+"When preview mode is activated you can view Ricerca search by including this "
+"query in your url"
+msgstr ""
+"כאשר מצב תצוגה מקדימה מופעל באפשרותך להציג את החיפוש על-ידי הוספת שאילתה זו "
+"לכתובת ה- URL שלך"
+
+#: inc/admin_fields.php:39
+msgid "Open items in a new tab"
+msgstr "פתיחת קישורים בטאב חדש"
+
+#: inc/admin_fields.php:49
+msgid ""
+"Show link to a search results page at the bottom of the search drop down"
+msgstr "הצג קישור לעמוד תוצאות חיפוש בתחתית מסך תוצאות החיפוש"
+
+#: inc/admin_fields.php:63
+msgid "Maximum results limit"
+msgstr "מגבלת תוצאות מקסימליות"
+
+#: inc/admin_fields.php:65
+#, php-format
+msgid "No enough search reults?  %s and get up to 150 results."
+msgstr "כמות התוצאות אינה מספיקה? %s לקבלת עד 150 תוצאות"
+
+#: inc/admin_fields.php:65 inc/admin_fields.php:113 inc/admin_fields.php:190
+#: inc/admin_fields.php:236 inc/admin_fields.php:443 inc/admin_fields.php:458
+#: inc/admin_fields.php:511 inc/admin_fields.php:558 inc/admin_fields.php:575
+#: inc/admin_fields.php:588 inc/modules/api.php:98 inc/modules/customize.php:86
+#: inc/modules/customize.php:107 inc/modules/customize.php:123
+#: inc/modules/customize.php:133 inc/modules/customize.php:143
+#: inc/modules/customize.php:153 inc/modules/customize.php:166
+#: inc/modules/customize.php:178 inc/modules/customize.php:190
+#: inc/modules/customize.php:202 inc/modules/customize.php:215
+#: inc/modules/customize.php:230 inc/modules/customize.php:243
+#: inc/modules/customize.php:257 inc/modules/datalayer.php:35
+#: inc/modules/popularterms.php:47 inc/modules/promotions.php:47
+#: inc/modules/shortcodes.php:86 inc/modules/termcorrector.php:57
+msgid "Upgrade to Premium"
+msgstr "שדרגו לפרימיום"
+
+#: inc/admin_fields.php:75
+msgid "Show categories list on search results layout"
+msgstr "הצג רשימת קטגוריות במסך תוצאות החיפוש"
+
+#: inc/admin_fields.php:84
+msgid "Show user searches history"
+msgstr "הצג היסטוריית חיפושים של המשתמש"
+
+#: inc/admin_fields.php:85
+msgid "Last five search terms"
+msgstr "חמשת החיפושים האחרונים"
+
+#: inc/admin_fields.php:99
+msgid "CSS selector to run the search modal."
+msgstr "מזהה CSS להפעלת חלון חיפוש"
+
+#: inc/admin_fields.php:111
+msgid "Maximum categories results limit"
+msgstr "מגבלת תוצאות הקטגוריות המרביות"
+
+#: inc/admin_fields.php:113
+#, php-format
+msgid "No enough search reults?  %s and get up to 30 results."
+msgstr "כמות התוצאות אינה מספיקה? %s לקבלת עד 30 תוצאות"
+
+#: inc/admin_fields.php:125
+msgid "Show thumbnails in search results"
+msgstr "הצג תמונות ממוזערות בתוצאות"
+
+#: inc/admin_fields.php:137
+msgid "Displying full image - maintaining its aspect ratio"
+msgstr "הצגת תמונה מלאה  שמירה על פרופרוציות רוחב - גובה"
+
+#: inc/admin_fields.php:138
+msgid "Cover - Displying part of the image"
+msgstr "קאבר - הצגה חלקית של התמונה"
+
+#: inc/admin_fields.php:140
+msgid "How image should be resized to fit its container?"
+msgstr "כיצד יש לשנות את גודל התמונה כך שתתאים לשטח שלה?"
+
+#: inc/admin_fields.php:156
+msgid "Woocommerce support active"
+msgstr "תמיכת Woocommerce פעילה"
+
+#: inc/admin_fields.php:167
+msgid "Link to a search results should show only products"
+msgstr "הקישור לתוצאות החיפוש אמור להציג רק מוצרים"
+
+#: inc/admin_fields.php:186
+msgid "Hide out of stock items from the search results"
+msgstr "הסתר מוצרים שאינם במלאי מלהופיע בתוצאות החיפוש"
+
+#: inc/admin_fields.php:190
+#, php-format
+msgid ""
+"%s and start excluding Not In Stock items from being shown in search results."
+msgstr "%s כדי להחריג פריטים שאינם במלאי מהופעה בתוצאות החיפוש."
+
+#: inc/admin_fields.php:204
+msgid "Show add to cart url"
+msgstr "קישור הוסף לסל"
+
+#: inc/admin_fields.php:213
+msgid "Show prices"
+msgstr "הצג מחירים"
+
+#: inc/admin_fields.php:224
+msgid "Index product SKU"
+msgstr "סנכרון מקט מוצר"
+
+#: inc/admin_fields.php:234
+msgid "Pin purchasable products at the top of the search results."
+msgstr "הצמד מוצרים שניתנים למכירה בתחילת התוצאות"
+
+#: inc/admin_fields.php:236
+#, php-format
+msgid "%s and show purchasable products first."
+msgstr "%s להתחיל לקדם מוצרים הניתנים למכירה בהתחלה"
+
+#: inc/admin_fields.php:255
+msgid "Post's name sync"
+msgstr "סנכרון שמות פוסטים"
+
+#: inc/admin_fields.php:256
+msgid ""
+"Will show search results based on the post's name: for example: product name"
+msgstr "החיפוש יתבצע על שמות הפוסטים, לדוגמא: שם המוצר"
+
+#: inc/admin_fields.php:267
+msgid "Main content in posts"
+msgstr "חיפוש בעורך הוויזאלי"
+
+#: inc/admin_fields.php:268
+msgid ""
+"Will show search results based on content appearing in the visual editor"
+msgstr "החיפוש יתבצע על רכיב ה visual editor בעמוד הפוסט"
+
+#: inc/admin_fields.php:280
+msgid "Excerpt sync"
+msgstr "סנכרון תיאור הפוסט (post excerpt)"
+
+#: inc/admin_fields.php:281
+msgid ""
+"Will show search results based on the post's excerpt: for example: product "
+"excerpt"
+msgstr "החיפוש יתבצע על תיאור הפוסט, לדוגמא: תיאור המוצר"
+
+#: inc/admin_fields.php:292
+msgid "Categories name sync"
+msgstr "סנכרון שמות קטגוריות"
+
+#: inc/admin_fields.php:293
+msgid ""
+"will show results on the categories list based on the category name. For "
+"example: Searching the term Chairs will show categories on the categories "
+"list that it's name contains the term Chairs."
+msgstr ""
+"החיפוש יתבצע על שם הקטגוריה ובהתאם יוצגו תוצאות בעמודת הקטגוריות. דוגמא: \n"
+"בחיפוש המילה ״ארון״ יוצגו קטגוריות שהמילה ארון מופיעה בשם שלהן."
+
+#: inc/admin_fields.php:301
+msgid "Categories description sync"
+msgstr "סנכרון תיאור קטגוריות"
+
+#: inc/admin_fields.php:302
+msgid ""
+"will show results on the categories list based on the category description. "
+"For example: Searching the term Chairs will show categories on the "
+"categories list that their description contains the term Chairs."
+msgstr ""
+"החיפוש יתבצע על תיאור הקטגוריה ובהתאם יוצגו תוצאות בעמודת הקטגוריות. "
+"דוגמא: \n"
+"בחיפוש המילה ״ארון״ יוצגו קטגוריות שהמילה ארון מופיעה בתיאור שלהן."
+
+#: inc/admin_fields.php:358
+msgid "Simple layout"
+msgstr "פריסה פשוטה"
+
+#: inc/admin_fields.php:359
+msgid "Wide layout"
+msgstr "פריסה רחבה"
+
+#: inc/admin_fields.php:360
+msgid "Modal layout"
+msgstr "מסך מלא"
+
+#: inc/admin_fields.php:362
+msgid "Search drop layout"
+msgstr "מבנה גריד חיפוש"
+
+#: inc/admin_fields.php:370
+msgid "Default width for wide screens"
+msgstr "רוחב ברירת מחדל למסכים גדולים"
+
+#: inc/admin_fields.php:378 inc/admin_fields.php:386 inc/admin_fields.php:394
+#: inc/admin_fields.php:402 inc/admin_fields.php:410
+#, php-format
+msgid "Default width for screens under %d px"
+msgstr "רוחב עבור מסכים מתחת ל %d px"
+
+#: inc/admin_fields.php:423
+msgid "Search field label"
+msgstr "כיתוב שדה חיפוש"
+
+#: inc/admin_fields.php:439
+msgid ""
+"Name crossing - Crossing a search query with category name in order to "
+"display it's items"
+msgstr ""
+"הצלבת שמות - הצלבת שאילתת חיפוש עם שם קטגוריה על מנת להציג את הפריטים שלה"
+
+#: inc/admin_fields.php:440
+msgid ""
+"In addition to the existing search results, this feature shows product "
+"search results from the category whose it's named meets the requested term. "
+"For example, when searching Beds the system shows products that do not "
+"contain the word Beds but their category is Beds"
+msgstr ""
+"בנוסף לתוצאות הקיימות, אפשרות זו תאפשר הצגת מוצרים מתוך קטגוריה שהשם שלה\n"
+"העונה על ביטוי החיפוש המבוקש.\n"
+"למשל: בחיפוש הביטוי ״מיטות״ תציג המערכת תוצאות של מוצרים שהשם שלהם הוא\n"
+"״מיטה״ כיוון שמוצרים אלה משוייכים לקטגורית ״מיטות״"
+
+#: inc/admin_fields.php:443
+#, php-format
+msgid "%s and improve the way you customize your search results."
+msgstr "%s ושפרו את האופן שבו אתם מקאסטמים את תוצאות החיפוש."
+
+#: inc/admin_fields.php:455
+msgid "Index custom taxonomies names (comma seprated)"
+msgstr "סנכרון טקסנומיות מותאמות (מופרד בפסיקים)"
+
+#: inc/admin_fields.php:456
+msgid ""
+"Fill the taxonomy slug key  (Comma separated, recommended to consult an "
+"expert)"
+msgstr "הזינו את הסלאג של הטקסנומיה (מומלץ להתייעץ עם מומחה)"
+
+#: inc/admin_fields.php:458
+#, php-format
+msgid ""
+"%s, start syncing your custome taxonomies fields and get better control on "
+"your search results."
+msgstr ""
+"%s ותתחילו לסנכרן את שדות המטא הייחודיים שלכם וקבלו שליטה טובה יותר על "
+"תוצאות החיפוש."
+
+#: inc/admin_fields.php:469
+msgid "Custom image field meta key"
+msgstr "תמונה מותאמת"
+
+#: inc/admin_fields.php:496
+msgid "Image size slug"
+msgstr "סלאג גודל תמונה"
+
+#: inc/admin_fields.php:497
+msgid "For best performance, please keep it as lower size you can."
+msgstr "לביצועים הטובים ביותר נא לשמור את הגודל נמוך ככל האפשר."
+
+#: inc/admin_fields.php:508
+msgid ""
+"Index additional meta fields Fill meta field's key names (comma seprated)"
+msgstr "שדות מטא נוספים"
+
+#: inc/admin_fields.php:509
+msgid ""
+"Fill meta field's key  (Comma separated, recommended to consult an expert)"
+msgstr "מלא שמות שדות (הפרידו בפסיקים, מומלץ להתייעץ עם מפתח האתר)"
+
+#: inc/admin_fields.php:511
+#, php-format
+msgid ""
+"%s, start syncing your custome meta fields and get better control on your "
+"search results."
+msgstr ""
+"%s וסנכרנו את שדות המטא המקוסטאמים באתר וקבלו שליטה טובה יותר על תוצאות "
+"החיפוש."
+
+#: inc/admin_fields.php:550
+msgid "Automatic"
+msgstr "סידור אוטומטי"
+
+#: inc/admin_fields.php:551
+msgid "Most cliked items"
+msgstr "הכי נלחצים מתוצאות החיפוש"
+
+#: inc/admin_fields.php:552
+msgid "Best sellers from search results"
+msgstr "הכי נמכרים מתוצאות החיפוש"
+
+#: inc/admin_fields.php:553
+msgid "Most added to cart from search results"
+msgstr "הכי נוספים לסל מתוצאות החיפוש"
+
+#: inc/admin_fields.php:555
+msgid ""
+"Order items by - Choose the order of the items on the search results layout"
+msgstr "סידור פריטים בתוצאות חיפוש - בחר את הסדר של תוצאות החיפוש:"
+
+#: inc/admin_fields.php:558
+#, php-format
+msgid "%s and change items ordering."
+msgstr "%s ושנו את סדר הופעת הפריטים בתוצאות החיפוש."
+
+#: inc/admin_fields.php:569 inc/admin_fields.php:582
+msgid "Type at least two letters"
+msgstr "הקלידו לפחות שתי אותיות"
+
+#: inc/admin_fields.php:573
+msgid "Exclude posts"
+msgstr "החרגת פוסטים"
+
+#: inc/admin_fields.php:574
+msgid "Exclude posts from shown in search results"
+msgstr "להחריג פריטים מלהיות מוצגים בתוצאות החיפוש"
+
+#: inc/admin_fields.php:575
+#, php-format
+msgid "Not enough posts to exclude?  %s and get up unlimited posts."
+msgstr "כמות זו אינה מספיקה?  %s וקבלו יכולת ללא הגבלת כמות."
+
+#: inc/admin_fields.php:585
+msgid "Exclude categories"
+msgstr "החגרת קטגוריות"
+
+#: inc/admin_fields.php:586
+msgid "Exclude posts of categories from shown in search results"
+msgstr "להחריג קטגוריות מלהיות מוצגות בתוצאות החיפוש"
+
+#: inc/admin_fields.php:588
+#, php-format
+msgid "%s and start hide unwanted categories."
+msgstr "%s והתחילו להסתיר קטגוריות לא רלבנטיות"
+
+#: inc/admin_fields.php:602
+msgid "On page load"
+msgstr "בטעינת העמוד"
+
+#: inc/admin_fields.php:603
+msgid "Directly after load, using AJAX"
+msgstr "לאחר הטעינה, באמצעות AJAX..."
+
+#: inc/admin_fields.php:604
+msgid ""
+"After first engagement (Scroll, Touch Click.., this is best for page speed "
+"load), using AJAX"
+msgstr ""
+"לאחר המעורבות הראשונה (גלול, גע בלחיצה..., זה הכי טוב לטעינת מהירות העמוד), "
+"באמצעות AJAX"
+
+#: inc/admin_fields.php:606
+msgid "When Index items should loaded in the front?"
+msgstr "מתי יש לטעון את פריטי האינדקס בחזית?"
+
+#: inc/admin_fields.php:607
+msgid ""
+"We prefer On page load. but in large amount of posts this can make conflict "
+"with some page cache plugins"
+msgstr ""
+"אנחנו מעדיפים בטעינת עמוד. אבל בכמות גדולה של פוסטים זה יכול לגרום להתנגשות "
+"עם תוספים מסוימים של מטמון דפים"
+
+#: inc/admin_fields.php:617
+msgid "Load CSS as inline instead of files"
+msgstr "לטעון את ה CSS בשיטת INLINE במקום טעינת קובץ"
+
+#: inc/admin_fields.php:628
+msgid "None"
+msgstr "ללא"
+
+#: inc/admin_fields.php:629
+msgid "1 Minute"
+msgstr "1 דקה"
+
+#: inc/admin_fields.php:630 inc/admin_fields.php:631 inc/admin_fields.php:632
+#: inc/admin_fields.php:633
+#, php-format
+msgid "%d Minutes"
+msgstr "%d דקות"
+
+#: inc/admin_fields.php:635
+msgid "Cache expire time for get items query on the frontend?"
+msgstr "זמן התפוגה של המטמון לקבלת שאילתת פריטים בממשק הקצה?"
+
+#: inc/admin_fields.php:636
+msgid "In case of busy site, keep it as higher you can"
+msgstr "במקרה של אתר עמוס, יש לשמור אותו גבוה ככל האפשר"
+
+#: inc/admin_fields.php:646
+msgid ""
+"Amount of items to be synced in each automatic or manual request (every 5 "
+"min)"
+msgstr "כמות פוסטים לסנכרון בכל פעימה (כל 5 דקות)"
+
+#: inc/admin_fields.php:647
+msgid "In case of busy site, keep it as lower you can"
+msgstr "במקרה של שרת עמוס יש להזין ערך נמוך"
+
+#: inc/admin_menu.php:15 inc/admin_menu.php:16 inc/admin_menu.php:164
+msgid "Ricerca Search"
+msgstr "חיפוש מתקדם"
+
+#: inc/admin_menu.php:24 inc/admin_menu.php:25
+msgid "Index"
+msgstr "אינדקס"
+
+#: inc/admin_menu.php:38 inc/admin_menu.php:39 inc/admin_menu.php:61
+msgid "Collections Creator"
+msgstr "יוצר הקולקציות"
+
+#: inc/admin_menu.php:63
+msgid ""
+"Upgrade to premium and create items collections and expose your visitore for "
+"more items on search results"
+msgstr ""
+"שדרוג ל - PREMIUM וצרו קולקציות אייטמים במטרה לחשוף את המבקרים באתר לכמות "
+"גדולה יותר של פריטים בתוצאות החיפוש"
+
+#: inc/admin_menu.php:67
+msgid "Add new collection"
+msgstr "הוסף קולקציה חדשה"
+
+#: inc/admin_menu.php:115
+msgid "General"
+msgstr "כללי"
+
+#: inc/admin_menu.php:119
+msgid "Posts indexing options"
+msgstr "אפשרויות אינדוקס פוסטים"
+
+#: inc/admin_menu.php:123
+msgid "Categories results - terms indexing options"
+msgstr "תוצאות מקטגוריות - אפשרויות אינדוקס ביטויים"
+
+#: inc/admin_menu.php:127
+msgid "Post types to sync"
+msgstr "סוגי פוסטים לסנכרון"
+
+#: inc/admin_menu.php:131
+msgid "Taxonomies to sync"
+msgstr "טקסונומיות לסנכרון"
+
+#: inc/admin_menu.php:132
+msgid ""
+"Example: In case your site has Brands as taxonomy and you would like to show "
+"search results of items of a certain brand."
+msgstr ""
+"לדוגמא: במידה ובאתר שלך יש טקסונומיה מסוג ״מותג״ וברצונך להציג בתוצאות "
+"החיפוש פריטים של מותג מסויים"
+
+#: inc/admin_menu.php:136
+msgid "Thumbnails"
+msgstr "תמונות ממוזערות"
+
+#: inc/admin_menu.php:141
+msgid "Woocommerce compatibility"
+msgstr "תאימות Woocommerce"
+
+#: inc/admin_menu.php:146
+msgid "Advanced rules"
+msgstr "חוקים מתקדמים"
+
+#: inc/admin_menu.php:150
+msgid "Miscellaneous"
+msgstr "שונות"
+
+#: inc/admin_menu.php:154
+msgid "Performance"
+msgstr "ביצועים"
+
+#: inc/admin_menu.php:229
+msgid "Save settings"
+msgstr "שמירה"
+
+#: inc/admin_menu.php:230
+msgid "Save settings and sync"
+msgstr "שמירה וסנכרון"
+
+#: inc/admin_menu.php:280
+msgid "Have A Question?"
+msgstr "יש לך שאלה?"
+
+#: inc/admin_menu.php:281
+msgid "Drop us a line and we will get back at you as soon as possible"
+msgstr "השאירו לנו הודעה ונחזור אליכם בהקדם"
+
+#: inc/admin_menu.php:284
+msgid "Contact Us"
+msgstr "דברו איתנו"
+
+#: inc/admin_menu.php:407
+msgid "Running first Sync, please wait..."
+msgstr "מבצע סנכרון ראשון, אנא המתינו..."
+
+#: inc/functions.php:16
+msgid "Sync in process, please wait!"
+msgstr "סנכרון בפעולה, אנא המתינו!"
+
+#: inc/functions.php:17
+msgid "Please keep this tab open."
+msgstr "אנא השאירו חלון זה פתוח."
+
+#: inc/functions.php:31
+msgid "Upgrade to premium!"
+msgstr "לשדרג לפרימיום"
+
+#: inc/functions.php:220
+msgid "Additional results for"
+msgstr "תוצאות נוספות עבור הביטוי"
+
+#: inc/functions.php:221 inc/functions.php:363
+msgid "Add to cart"
+msgstr "הוספה לסל"
+
+#: inc/functions.php:222
+msgid "Additional info"
+msgstr "מידע נוסף"
+
+#: inc/functions.php:223 inc/modules/popularterms.php:29
+msgid "Popular terms"
+msgstr "חיפושים פופולאריים"
+
+#: inc/functions.php:224
+msgid "Results:"
+msgstr "תוצאות מתוך קטלוג המוצרים:"
+
+#: inc/functions.php:225 inc/functions.php:361
+msgid "More info"
+msgstr "מידע נוסף"
+
+#: inc/functions.php:226
+msgid "Added to cart"
+msgstr "נוסף לסל"
+
+#: inc/functions.php:227
+msgid "Categories Results"
+msgstr "תוצאות מתוך קטגוריות"
+
+#: inc/functions.php:228
+msgid "No results found"
+msgstr "לא נמצאו תוצאות חיפוש"
+
+#: inc/functions.php:229
+msgid "Loading data, please wait..."
+msgstr "טוען נתונים, אנא המתינו..."
+
+#: inc/functions.php:242 inc/functions.php:268
+msgid "Close"
+msgstr "סגור"
+
+#: inc/functions.php:247
+msgid "What you are looking for today?"
+msgstr "מה אתה מחפש היום?"
+
+#: inc/functions.php:485
+msgid "Sync data"
+msgstr "סנכרן נתונים"
+
+#: inc/functions.php:488
+msgid "Start a manual sync"
+msgstr "התחל סנכרון ידני"
+
+#: inc/modules/api.php:30 inc/modules/api.php:41
+msgid "Api"
+msgstr "API"
+
+#: inc/modules/api.php:46
+msgid ""
+"IMPORTANT: when using one or more of these functions, you must check for its "
+"existence before using it, otherwise your site will badly break with a fatal "
+"error at the next Plugin update (as WordPress deletes the plugin when "
+"updating it)."
+msgstr ""
+"חשוב: בעת שימוש באחת או יותר מהפונקציות האלה, עליך לבדוק את קיומה לפני "
+"השימוש בו, אחרת האתר שלך יהיה לשבור קשות עם שגיאה קטלנית בעדכון התוסף הבא "
+"(כמו וורדפרס מוחק את התוסף בעת עדכון אותו)."
+
+#: inc/modules/api.php:48
+msgid "Using API can give you the ability to enhancing our features."
+msgstr "שימוש ב - API יכול לתת לך את היכולת לשפר את התכונות שלנו."
+
+#: inc/modules/api.php:54
+msgid "Get top clicked items"
+msgstr "הנלחצים ביותר"
+
+#: inc/modules/api.php:60
+msgid "Get top add to cart items"
+msgstr "הכי נוספים לסל"
+
+#: inc/modules/api.php:68
+msgid "Get top purchased items"
+msgstr "הכי נרכשים"
+
+#: inc/modules/api.php:76
+msgid "Get promotion by id"
+msgstr "משיכת קידום לפי מספר ID"
+
+#: inc/modules/api.php:98 inc/modules/shortcodes.php:86
+#, php-format
+msgid "This option availble only to Premium users. %s here."
+msgstr "אפשרות זו זמינה רק למשתמשי פרימיום. %s כאן."
+
+#: inc/modules/customize.php:39
+msgid "Customize"
+msgstr "התאמה אישית"
+
+#: inc/modules/customize.php:66
+msgid "Layout background color"
+msgstr "צבע הרקע של הפריסה"
+
+#: inc/modules/customize.php:84
+msgid "Font family - google font"
+msgstr "משפחת גופנים - Google Font"
+
+#: inc/modules/customize.php:86
+#, php-format
+msgid "Wanna use custom font? %s and improve typography today."
+msgstr ""
+"רוצים להשתמש בגופן מותאם אישית? %s  והתאימו את הטיפוגרפיה של Ricerca "
+"לטיפוגרפית האתר"
+
+#: inc/modules/customize.php:105
+msgid "Titles font weight"
+msgstr "משקל גופן כותרות"
+
+#: inc/modules/customize.php:107 inc/modules/customize.php:123
+#: inc/modules/customize.php:133 inc/modules/customize.php:143
+#: inc/modules/customize.php:153 inc/modules/customize.php:166
+#: inc/modules/customize.php:178 inc/modules/customize.php:190
+#: inc/modules/customize.php:202 inc/modules/customize.php:215
+#: inc/modules/customize.php:230 inc/modules/customize.php:243
+#: inc/modules/customize.php:257
+#, php-format
+msgid "Wanna be free to play with it? %s and start customize today."
+msgstr "רוצה להטמיע גופן מותאם אישית? %s ושפר את הטיפוגרפיה באתר עוד היום."
+
+#: inc/modules/customize.php:120
+msgid "Titles font size"
+msgstr "גודל פונט כותרות"
+
+#: inc/modules/customize.php:130
+msgid "Sub titles font size"
+msgstr "גודל פונט תתי כותרות"
+
+#: inc/modules/customize.php:140
+msgid "Add to cart button font size"
+msgstr "גודל פונט כפתור הוספה לסל"
+
+#: inc/modules/customize.php:150
+msgid "Promotions titles font size"
+msgstr "גודל פונט כותרות קידומים"
+
+#: inc/modules/customize.php:163
+msgid "Color of titles"
+msgstr "צבע כותרות"
+
+#: inc/modules/customize.php:175
+msgid "Color of subtitles"
+msgstr "צבע תתי כותרות"
+
+#: inc/modules/customize.php:187
+msgid "Add to cart font collor"
+msgstr "צבע פונט כפתור הוספה לסל"
+
+#: inc/modules/customize.php:199
+msgid "Add to cart backgound"
+msgstr "צבע רקע כפתור הוספה לסל"
+
+#: inc/modules/customize.php:212
+msgid "Close icon color"
+msgstr "צבע כפתור סגירה"
+
+#: inc/modules/customize.php:227
+msgid "Promotions color of titles"
+msgstr "צבע כותרות קידומים"
+
+#: inc/modules/customize.php:240
+msgid "Terms Corrector font size"
+msgstr "גודל פונט מתקן ביטויים"
+
+#: inc/modules/customize.php:254
+msgid "Color of Terms Corrector"
+msgstr "צבע פונט מתקן ביטויים"
+
+#: inc/modules/datalayer.php:32
+msgid "Allow to fire ricerca's events to GTM datalayer"
+msgstr "אפשר לדחוף את אירועי Ricerca ל GTM data layer"
+
+#: inc/modules/datalayer.php:33
+msgid "click here"
+msgstr "לחץ כאן "
+
+#: inc/modules/datalayer.php:35
+#, php-format
+msgid "%s and start tracking behavior data on your site."
+msgstr "%s ותתחילו לעקוב אחר נתוני התנהגות הגולשים באתר שלכם."
+
+#: inc/modules/popularterms.php:44
+msgid "Show popular searched terms"
+msgstr "הצג מונחי חיפוש פופולריים"
+
+#: inc/modules/popularterms.php:47
+#, php-format
+msgid "%s to show popular search terms."
+msgstr "%s להצגת מונחי חיפוש פופולריים."
+
+#: inc/modules/popularterms.php:55
+msgid "Block terms from being shown as popular terms"
+msgstr "חסום מונחים מלהופיע כביטויים פופולאריים"
+
+#: inc/modules/popularterms.php:56
+msgid "(Comma separated, lowercase)"
+msgstr "(פסיקים מופרדים, אותיות קטנות)"
+
+#: inc/modules/popularterms.php:58
+#, php-format
+msgid ""
+"Premium users can block terms. %s and start blocking your site's negative "
+"terms from being shown under Populat terms"
+msgstr ""
+"משתמשי פרימיום יכולים לחסום מונחים. %s וחסמו ביטויים שליליים מלהופיע תחת "
+"חיפושים פופולאריים"
+
+#: inc/modules/popularterms.php:58 inc/modules/reports.php:59
+#: inc/modules/reports.php:100
+msgid "Upgrade here"
+msgstr "שדרגו עכשיו"
+
+#: inc/modules/popularterms.php:83
+msgid ""
+"Monitor and review this feature to delete unwanted terms to being shown as "
+"popular terms."
+msgstr ""
+"בחן פיצ׳ר זה במטרה לאתר ביטויים שברוצנך למנוע את ההצגה שלהם כחיפושים "
+"פופלארים."
+
+#: inc/modules/popularterms.php:90 inc/modules/termcorrector.php:93
+msgid "Term"
+msgstr "ביטוי"
+
+#: inc/modules/popularterms.php:91 inc/modules/termcorrector.php:95
+msgid "Count"
+msgstr "כמות"
+
+#: inc/modules/promotions.php:44
+msgid "Show Promotion items"
+msgstr "הפעלת קידומים"
+
+#: inc/modules/promotions.php:45
+msgid "In addition to be active, there is need to configure the module"
+msgstr "בנוסף להפעלה יש לקנפג את הפיצ׳ר"
+
+#: inc/modules/promotions.php:47
+#, php-format
+msgid ""
+"%s in order to market and promote products throughout your site that has "
+"been engaged with ricerca's search results."
+msgstr ""
+"%s כדי לקדם ברחבי האתר מוצרים שהייתה להם אינטראקציה עם תוצאות החיפוש של "
+"Ricerca"
+
+#: inc/modules/promotions.php:57
+msgid "Promotions"
+msgstr "קידומים"
+
+#: inc/modules/promotions.php:98
+msgid "Add promotion"
+msgstr "הוספת קידום"
+
+#: inc/modules/promotions.php:125
+msgid "Promotion title"
+msgstr "כותרת רכיב קידום"
+
+#: inc/modules/promotions.php:129
+msgid "Layout"
+msgstr "פריסה"
+
+#: inc/modules/promotions.php:131
+msgid "Grid"
+msgstr "גריד"
+
+#: inc/modules/promotions.php:132
+msgid "Carousel"
+msgstr "קרסולה"
+
+#: inc/modules/promotions.php:137
+msgid "Items in row"
+msgstr "פריטים בשורה"
+
+#: inc/modules/promotions.php:142
+msgid "Items in view"
+msgstr "פריטים מוצגים"
+
+#: inc/modules/promotions.php:148
+msgid "Insertion type"
+msgstr "שיטת הטמעה"
+
+#: inc/modules/promotions.php:150
+msgid "Insert after"
+msgstr "הכנס אחרי"
+
+#: inc/modules/promotions.php:151
+msgid "Insert inside"
+msgstr "הכנס בתוך"
+
+#: inc/modules/promotions.php:152
+msgid "Replace selector content"
+msgstr "החלף את התוכן של הסלקטור"
+
+#: inc/modules/promotions.php:157
+msgid "Promotion Query"
+msgstr "שאילתה עבור Promotions"
+
+#: inc/modules/promotions.php:159
+msgid "Top Clicked items"
+msgstr "הנלחצים ביותר מתוצאות החיפוש"
+
+#: inc/modules/promotions.php:160
+msgid "Top Purchased"
+msgstr "הנרכשים ביותר מתוצאות החיפוש"
+
+#: inc/modules/promotions.php:161
+msgid "Top Added to cart"
+msgstr "הנוספים לסל ביותר מתוצאות החיפוש"
+
+#: inc/modules/promotions.php:167
+msgid "CSS selector"
+msgstr "CSS selector"
+
+#: inc/modules/promotions.php:171
+msgid "Upgrade to premium"
+msgstr "שדרגו לפרימיום"
+
+#: inc/modules/reports.php:29 inc/modules/reports.php:97
+#: inc/modules/reports.php:116 inc/modules/reports.php:117
+msgid "Reports"
+msgstr "דוחות"
+
+#: inc/modules/reports.php:50 inc/modules/reports.php:51
+#: inc/modules/reports.php:52 inc/modules/reports.php:53
+#: inc/modules/reports.php:54
+#, php-format
+msgid "After %d days"
+msgstr "אחרי %d ימים"
+
+#: inc/modules/reports.php:56
+msgid "Delete reports"
+msgstr "מחיקת דוחות"
+
+#: inc/modules/reports.php:59 inc/modules/reports.php:100
+#, php-format
+msgid ""
+"Wanna get real statistics data on your website's visitors engagement with "
+"Ricerc's search results? %s and start anlyzing your site."
+msgstr ""
+"רוצים לקבל נתונים סטטיסטיים אמיתיים על אינטראקציות מבקרים באתר עם תוצאות "
+"החיפוש של Ricerca? %s ותתחילו לקבל מידע סטטיסטי על האתר."
+
+#: inc/modules/shortcodes.php:26 inc/modules/shortcodes.php:36
+msgid "Short codes"
+msgstr "שורטקודים זמינים"
+
+#: inc/modules/shortcodes.php:37
+msgid "Ricerca can work simply on a default WordPress search form."
+msgstr "התוסף יכול לעבוד עם כל טופס חיפוש ברירת מחדל של וורדפרס."
+
+#: inc/modules/shortcodes.php:38
+msgid "If you need some customization here are some codes that can assist."
+msgstr "אם תרצה לבצע התאמות נוספות להלן מספר קטעי קוד שעשויים לסייע."
+
+#: inc/modules/shortcodes.php:42
+msgid "Form short code"
+msgstr "קוד להצגת טופס חיפוש"
+
+#: inc/modules/shortcodes.php:51
+msgid "Icon button short code"
+msgstr "קוד להצגת כפתור עם איקון"
+
+#: inc/modules/shortcodes.php:52 inc/modules/shortcodes.php:61
+msgid "This shortcode can work only with Modal layout."
+msgstr "קוד זה יכול לעבוד רק במצב של פריסה מלאה"
+
+#: inc/modules/shortcodes.php:60
+msgid "Labeled button short code"
+msgstr "קוד להצגת כפתור טקסטואלי"
+
+#: inc/modules/termcorrector.php:57
+#, php-format
+msgid "Too much terms to correct?  %s and start fix today."
+msgstr "יותר מדי מונחים לתקן?  %s ותוכלו לתקן את הביטויים עוד היום."
+
+#: inc/modules/termcorrector.php:65
+msgid "Terms Corrector"
+msgstr "מתקן הביטויים"
+
+#: inc/modules/termcorrector.php:85
+msgid ""
+"Monitor and review this feature to find terms which leads to \"Not found "
+"results\" on your site in order to suggest and show alternative results by "
+"fixing terms."
+msgstr ""
+"בחן פיצ׳ר זה במטרה לאתר ביטויים שעלו בחיפוש והובילו \"לא נמצאו תוצאות\" באתר "
+"שלך והצע תוצאות חלופיות על ידי תיקון הביטויים."
+
+#: inc/modules/termcorrector.php:86
+msgid "Make sure to set the right uppercase letters and lowercase letters."
+msgstr "הקפד על אותיות גדולות וקטנות"
+
+#: inc/modules/termcorrector.php:94
+msgid "Correct Term"
+msgstr "ביטוי נכון"
+
+#: inc/modules/termcorrector.php:97 inc/modules/termcorrector.php:116
+msgid "Fix term"
+msgstr "תיקון ביטוי"
+
+#: inc/ric_class.php:411
+msgid "Done"
+msgstr "הסתיים"
+
+#: inc/ric_class.php:412
+msgid "Finalizing."
+msgstr "מסיים תהליך"
+
+#: inc/ric_class.php:413
+msgid "Search"
+msgstr "חיפוש"
+
+#: inc/ric_class.php:414
+msgid ""
+"Are you sure to delete? this item will back to the index if there is any "
+"misconfiguration setting"
+msgstr ""
+"האם אתה בטוח שברצונך למחוק? הפריט יוחזר לאינדקס במידה ותתגלה הגדרה שגויה"
+
+#: inc/ric_class.php:415
+msgid "Items found"
+msgstr "נמצאו תוצאות"
+
+#: inc/ric_class.php:513
+msgid "Settings"
+msgstr "הגדרות"
+
+#: inc/status.php:87
+msgid "Export settings"
+msgstr "ייצוא הגדרות"
+
+#: inc/status.php:88
+msgid "Click here to export all settings."
+msgstr "לחצו כאן לייצוא כל ההגדרות"
+
+#: inc/status.php:89
+msgid "Export"
+msgstr "ייצוא"
+
+#: inc/status.php:94
+msgid "Environment info"
+msgstr "סביבת עבודה"
+
+#: main.php:78
+msgid "Every 5 minutes"
+msgstr "כל 5 דקות"
+
+#: main.php:82
+msgid "Twice at hour"
+msgstr "פעמיים בשעה"
+
+#: main.php:99
+#, php-format
+msgid "Ricerca requires minimum PHP version %s."
+msgstr "Ricerca דורש גרסת PHP מינימלית %s."
+
+#: main.php:101
+#, php-format
+msgid "Ricerca requires minimum WordPress version %s+."
+msgstr "Ricerca דורשת מינימום גרסת וורדפרס %s +."
+
+#. Plugin Name of the plugin/theme
+msgid "Ricerca smart and advanced search"
+msgstr "Ricerca - smart and advanced search"
+
+#. Plugin URI of the plugin/theme
+msgid "https://www.myricerca.com/"
+msgstr "https://www.myricerca.com/"
+
+#. Description of the plugin/theme
+msgid ""
+"Advanced & fastest search engine. let your visitor simple find every thing "
+"the need."
+msgstr ""
+"Advanced & fastest search engine. let your visitor simple find every thing "
+"the need."
+
+#. Author of the plugin/theme
+msgid "R2K TEAM"
+msgstr "R2K TEAM"
+
+#. Author URI of the plugin/theme
+msgid "https://www.r2k.co.il/"
+msgstr "https://www.r2k.co.il/"
+
+#~ msgid ""
+#~ "Wanna get real statistics data on your website's visitors engagement with "
+#~ "Ricerc's search results? %s and start anlyzing your site "
+#~ msgstr ""
+#~ "רוצים לקבל נתונים סטטיסטיים אמיתיים על אינטראקציות מבקרים באתר עם תוצאות "
+#~ "החיפוש של Ricerca? %s וקבלו מידע סטטיסטי על האתר."
+
+#~ msgid "Default width for screens under 1400px"
+#~ msgstr "רוחב למסכים מתחת ל - 1400px"
+
+#~ msgid "Default width for screens under 1280px"
+#~ msgstr "רוחב למסכים מתחת ל - 1280px"
+
+#~ msgid "Default width for screens under 1120px"
+#~ msgstr "רוחב למסכים מתחת ל - 1120px"
+
+#~ msgid "Default width for screens under 980px"
+#~ msgstr "רוחב למסכים מתחת ל - 980px"
+
+#~ msgid "Default width for screens under 750px"
+#~ msgstr "רוחב למסכים מתחת ל - 750px"
+
+#~ msgid "After 7 days"
+#~ msgstr "לאחר 7 ימים"
+
+#~ msgid "After 30 days"
+#~ msgstr "לאחר 30 ימים"
+
+#~ msgid "After 60 days"
+#~ msgstr "לאחר 60 ימים"
+
+#~ msgid "After 180 days"
+#~ msgstr "לאחר ‎ 180 ‎ ימים"
+
+#~ msgid "After 365 days"
+#~ msgstr "לאחר 365 ימים"
+
+#~ msgid "Update to Premium"
+#~ msgstr "שדרג לפרימיום"
+
+#~ msgid "No posts types to sync, plese modify plugin settings"
+#~ msgstr "אין סוגי פוסטים לסנכרן, אנא שנה את הגדרות התוסף"
+
+#~ msgid "Need this feature?  %s and start promote your items better."
+#~ msgstr "צריך פיצ׳ר זה?  %s ותתתחיל לקדם את הפריטים שלך טוב יותר."
+
+#~ msgid ""
+#~ "Upgrade to premium in order to market and promote products throughout "
+#~ "your site that has been engaged with ricerca's search results."
+#~ msgstr ""
+#~ "שדרגו לפרימיום כדי לקדם ברחבי האתר מוצרים שהייתה להם אינטראקציה עם תוצאות "
+#~ "החיפוש של Ricerca"
+
+#~ msgid "Show user history"
+#~ msgstr "הצג היסטוריית חיפושים"
+
+#~ msgid ""
+#~ "When preview mode activated, then you can view the search by include this "
+#~ "query in your url"
+#~ msgstr ""
+#~ "כאשר מצב תצוגה מקדימה מופעל, באפשרותך להציג את החיפוש על-ידי הכללת שאילתה "
+#~ "זו בכתובת ה- URL שלך"
+
+#~ msgid ""
+#~ "Show at the bottom of the search drop a link to the search results page"
+#~ msgstr "הצג בתחתית דרופ החיפוש קישור לעמוד תוצאות חיפוש"
+
+#~ msgid "Show thumbnails in results"
+#~ msgstr "הצג תמונות ממוזערות בתוצאות"
+
+#~ msgid ""
+#~ "Order items by - Chose the order of the items on the search results layout"
+#~ msgstr "סידור פריטים בתוצאות חיפוש - בחר את הסדר של תוצאות החיפוש:"
+
+#~ msgid "Doing first Sync, please wait..."
+#~ msgstr "מבצע סנכרון ראשון, אנא המתינו..."
+
+#~ msgid ""
+#~ "Monitor and review this feature to find terms which leads to  \"Not found "
+#~ "results\" on your site in order to suggest and show alternative results "
+#~ "by fixing terms."
+#~ msgstr ""
+#~ "לפקח ולסקור תכונה זו כדי למצוא מונחים אשר מוביל \"לא נמצאו תוצאות\" באתר "
+#~ "שלך כדי להציע ולהציג תוצאות חלופיות על ידי תיקון מונחים."
+
+#~ msgid "Need more? Free your limit"
+#~ msgstr "רוצה עוד? שחרר את ההגבלה"
+
+#~ msgid "Go Primium"
+#~ msgstr "שדרג לפרימיום"
+
+#~ msgid "Here"
+#~ msgstr "כאן"
+
+#~ msgid "Sync post names in categories"
+#~ msgstr "סנכרון שמות פוסטים בקטגוריות"
+
+#~ msgid "Invailed license key"
+#~ msgstr "Invailed license key"
+
+#~ msgid ""
+#~ "In addition to the existed serach results, this feture shows products "
+#~ "search results from categry which it's name meets the the requestes term. "
+#~ "For exapmle when searching Beds the system shows produtct that do not "
+#~ "contain the word Beds but their category is Beds"
+#~ msgstr ""
+#~ "בנוסף לתוצאות הקיימות, אפשרות זו תאפשר הצגת מוצרים מתוך קטגוריה שהשם שלה\n"
+#~ "העונה על ביטוי החיפוש המבוקש.\n"
+#~ "למשל: בחיפוש הביטוי ״מיטות״ תציג המערכת תוצאות של מוצרים שהשם שלהם הוא\n"
+#~ "״מיטה״ כיוון שמוצרים אלה משוייכים לקטגורית ״מיטות״"
+
+#~ msgid ""
+#~ "Index additiona meta fields Fill meta field's key names (comma seprated)"
+#~ msgstr "שדות מטא נוספים"
+
+#~ msgid "Will show search results based content appear in the visual editor"
+#~ msgstr "החיפוש יתבצע על רכיב ה visual editor בעמוד הפוסט"
+
+#~ msgid ""
+#~ "Will show serch results based on the post's excerpt: for example: product "
+#~ "excerpt"
+#~ msgstr "החיפוש יתבצע על תיאור הפוסט, לדוגמא: תיאור המוצר"
+
+#~ msgid "Will show serch results based content appear in the visual editor"
+#~ msgstr "החיפוש יתבצע על רכיב ה visual editor בעמוד הפוסט"
+
+#~ msgid "Will show serch results based con ontent appear in the visual editor"
+#~ msgstr "החיפוש יתבצע על רכיב ה visual editor בעמוד הפוסט"
+
+#~ msgid ""
+#~ "Will show serch results based on the post's name: for example: product "
+#~ "name"
+#~ msgstr "החיפוש יתבצע על שמות הפוסטים, לדוגמא: שם המוצר"
+
+#~ msgid ""
+#~ "Amount of items to be sync in each automatic or manual request (every 5 "
+#~ "min)"
+#~ msgstr "כמות פוסטים לסנכרון בכל פעימה (כל 5 דקות)"
+
+#~ msgid ""
+#~ "Amount of items to be sync in each automatinc or manual request (every 5 "
+#~ "min)"
+#~ msgstr "כמות פריטים בכל סינכרון אוטומטי/ידני (מתבצע כל 5 דקות)"
+
+#~ msgid "Save all settings"
+#~ msgstr "שמור את כל ההגדרות"
+
+#~ msgid "Block terms from show as a popular terms"
+#~ msgstr "חסימת הופעת מילים במונחי חיפוש פופולאריים"
+
+#~ msgid "Color attribute"
+#~ msgstr "תכונת צבע"
+
+#~ msgid "Working in case of woocommerce plugin action"
+#~ msgstr "במקרה ומותקן תוסף ווקומרס"
+
+#~ msgid "Ricerca - advanced search"
+#~ msgstr "Ricerca חיפוש מתקדם"
+
+#~ msgid ""
+#~ "Advanced & fastest WordPress search engine. let your visitor simple find "
+#~ "every thing the need."
+#~ msgstr ""
+#~ "מנוע החיפוש המתקדם והמהיר ביותר של וורדפרס. תן למבקר שלך למצוא בפשטות את "
+#~ "כל מה שצריך."
+
+#~ msgid ""
+#~ "The entire object is made to fill the box, while preserving its aspect "
+#~ "ratio."
+#~ msgstr "התמונה שומרת על יחס רוחב וגובה אך מתאימה עצמה לגבולות השטח שלה."
+
+#~ msgid ""
+#~ "The replaced content is sized to maintain its aspect ratio while filling "
+#~ "the element's entire content box"
+#~ msgstr "התמונה שומרת על יחס רוחב/גובה ושטח התמונה יתמלא לגמרי."
+
+#~ msgid "Amount of items to be sync in each request (every 5 min)"
+#~ msgstr "כמות פריטים לסינכרון בכל בקשה (כל 5 דקות)"
+
+#~ msgid "Terms indexing options"
+#~ msgstr "הגדרות סינכרון קטגוריות"
+
+#~ msgid "Table of winners"
+#~ msgstr "טבלת הזוכים"
+
+#~ msgid "From date"
+#~ msgstr "מתאריך"
+
+#~ msgid "To date"
+#~ msgstr "עד תאריך"
+
+#~ msgid "Click on items"
+#~ msgstr "פריטים שנלחצו"
+
+#~ msgid "Item"
+#~ msgstr "פריט"
+
+#~ msgid "Platform"
+#~ msgstr "פלטפורמה"
+
+#~ msgid "Browser"
+#~ msgstr "דפדפן"
+
+#~ msgid "OS"
+#~ msgstr "מערכת הפעלה"
+
+#~ msgid "Screen"
+#~ msgstr "מסך"
+
+#~ msgid "Woocommerce interactions winners"
+#~ msgstr "אינטרקציות ווקומרס"
+
+#~ msgid "Purchases"
+#~ msgstr "רכישות"
+
+#~ msgid "Conversion rate"
+#~ msgstr "יחס המרה"
+
+#~ msgid "Top 10 terms"
+#~ msgstr "10 המונחים המובילים"
+
+#~ msgid "Top 10 items"
+#~ msgstr "10 הפריטים המובילים"
+
+#~ msgid "Terms by date"
+#~ msgstr "מונחים לפי תאריך"
+
+#~ msgid "Added to cart by date"
+#~ msgstr "נוסף לסל לפי תאריך"
+
+#~ msgid "Purchased by date"
+#~ msgstr "רכישות לפי תאריך"
+
+#~ msgid "Integrate codes"
+#~ msgstr "הטמעות"
+
+#~ msgid "Ricerca Search Note: please check system requirements!"
+#~ msgstr "דרישות סף"
+
+#~ msgid "Ricerca Advanced Search"
+#~ msgstr "Ricerca חיפוש מתקדם"
+
+#~ msgid ""
+#~ "Advanced WordPress search engine. let your visitor simple find every "
+#~ "thing the need."
+#~ msgstr "מנוע חיפוש וורדפרס מתקדם. תן למבקר שלך למצוא כל דבר שצריך."
+
+#~ msgid "Settings saved"
+#~ msgstr "הגדרות נשמרו"
+
+#~ msgid ""
+#~ "When preview mode activated, then you can view the search by include this "
+#~ "query in your url <br/> ?ric_prev_mode=true"
+#~ msgstr ""
+#~ "כאשר מצב תצוגה מקדימה מופעל, תוכל לצפות בחיפוש על ידי כלול שאילתה זו "
+#~ "בכתובת האתר שלך<br/> ? ric_prev_mode = נכון"
+
+#~ msgid "Show url to the search results page"
+#~ msgstr "הצג כתובת אתר לדף תוצאות החיפוש"
+
+#~ msgid "Items to sync per request"
+#~ msgstr "פריטים לסנכרן לכל בקשה"
+
+#~ msgid "More results from"
+#~ msgstr "תוצאות נוספות עבור"
+
+#~ msgid "What you are searching for today?"
+#~ msgstr "מה אתה מחפש היום?"
+
+#~ msgid "Enhanced search Note: please check system requirements!"
+#~ msgstr "חיפוש משופר הערה: אנא בדוק את דרישות המערכת!"
